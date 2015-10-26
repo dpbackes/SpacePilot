@@ -1,0 +1,386 @@
+{
+  "default_layout": "npnxnsnfns00000000001",
+  "textdirection": "ltr",
+  "device": false,
+  "fontscale": 100,
+  "kbshortcuts": false,
+  "skip_nav_enabled": true,
+  "outputtype": "undefined",
+  "layouts": {
+    "npnxsnfns00000000001": {
+      "kind": "layout",
+      "font": "Open Sans Frame Subset",
+      "controllayout": "npnxsnfns00000000001",
+      "colorscheme": "npnxnsnfns00000000001",
+      "string_table": "npnxnsnfns00000000001"
+    },
+    "pxnsnfns00000000001": {
+      "kind": "layout",
+      "font": "Open Sans Frame Subset",
+      "controllayout": "pxnsnfns00000000001",
+      "colorscheme": "npnxnsnfns00000000001",
+      "string_table": "npnxnsnfns00000000001"
+    },
+    "npxnsnfns00000000001": {
+      "kind": "layout",
+      "font": "Open Sans Frame Subset",
+      "controllayout": "npxnsnfns00000000001",
+      "colorscheme": "npnxnsnfns00000000001",
+      "string_table": "npnxnsnfns00000000001"
+    },
+    "npnxnsnfns00000000001": {
+      "kind": "layout",
+      "font": "Open Sans Frame Subset",
+      "controllayout": "npnxnsnfns00000000001",
+      "colorscheme": "npnxnsnfns00000000001",
+      "string_table": "npnxnsnfns00000000001"
+    },
+    "pxnsnfns00000000000": {
+      "kind": "layout",
+      "font": "Open Sans Frame Subset",
+      "controllayout": "pxnsnfns00000000000",
+      "colorscheme": "npnxnsnfns00000000001",
+      "string_table": "npnxnsnfns00000000001"
+    }
+  },
+  "controlOptions": {
+    "sidebarOptions": {
+      "titleEnabled": true,
+      "titleText": "Space Station",
+      "logoEnabled": false,
+      "sidebarEnabled": false,
+      "sidebarPos": "left",
+      "tabs": {},
+      "timeEnabled": false,
+      "timeFormat": "",
+      "videoEnabled": false,
+      "height": 135
+    },
+    "menuOptions": {
+      "flow": "free",
+      "wrapListItems": false,
+      "tooltips": true,
+      "autocollapse": true,
+      "autonumber": false,
+      "enableResultsIcons": true
+    },
+    "controls": {
+      "volume": false,
+      "seekbar": false,
+      "readonly": false,
+      "search": false,
+      "pauseplay": false,
+      "replay": false
+    },
+    "bottomBarOptions": {
+      "bottomBarEnabled": false
+    }
+  },
+  "controlLayouts": {
+    "npnxsnfns00000000001": {
+      "volume": false,
+      "seekbar": false,
+      "replay": false,
+      "pauseplay": false,
+      "logo": false,
+      "previous": false,
+      "next": false,
+      "submit": true,
+      "finish": false,
+      "submitall": false,
+      "resources": false,
+      "glossary": false,
+      "transcript": false,
+      "outline": {
+        "enabled": false,
+        "search": false
+      },
+      "close_btn": true
+    },
+    "pxnsnfns00000000001": {
+      "volume": false,
+      "seekbar": false,
+      "replay": false,
+      "pauseplay": false,
+      "logo": false,
+      "previous": true,
+      "next": true,
+      "submit": false,
+      "finish": false,
+      "submitall": false,
+      "resources": false,
+      "glossary": false,
+      "transcript": false,
+      "outline": {
+        "enabled": false,
+        "search": false
+      },
+      "close_btn": true
+    },
+    "npxnsnfns00000000001": {
+      "volume": false,
+      "seekbar": false,
+      "replay": false,
+      "pauseplay": false,
+      "logo": false,
+      "previous": false,
+      "next": true,
+      "submit": false,
+      "finish": false,
+      "submitall": false,
+      "resources": false,
+      "glossary": false,
+      "transcript": false,
+      "outline": {
+        "enabled": false,
+        "search": false
+      },
+      "close_btn": true
+    },
+    "npnxnsnfns00000000001": {
+      "volume": false,
+      "seekbar": false,
+      "replay": false,
+      "pauseplay": false,
+      "logo": false,
+      "previous": false,
+      "next": false,
+      "submit": false,
+      "finish": false,
+      "submitall": false,
+      "resources": false,
+      "glossary": false,
+      "transcript": false,
+      "outline": {
+        "enabled": false,
+        "search": false
+      },
+      "close_btn": true
+    },
+    "pxnsnfns00000000000": {
+      "volume": false,
+      "seekbar": false,
+      "replay": false,
+      "pauseplay": false,
+      "logo": false,
+      "previous": true,
+      "next": true,
+      "submit": false,
+      "finish": false,
+      "submitall": false,
+      "resources": false,
+      "glossary": false,
+      "transcript": false,
+      "outline": {
+        "enabled": false,
+        "search": false
+      },
+      "close_btn": false
+    }
+  },
+  "stringTables": {
+    "npnxnsnfns00000000001": {
+      "kind": "string_table",
+      "string": {
+        "prev": "PREV",
+        "next": "NEXT",
+        "submit": "SUBMIT",
+        "outline": "Menu",
+        "resources": "Resources",
+        "glossary": "Glossary",
+        "transcript": "Notes",
+        "clear": "Clear and return to Menu",
+        "search_results": "Search Results",
+        "filter": "Filter",
+        "slide_text_chk": "Slide Text",
+        "transcript_chk": "Notes",
+        "search_in": "Search in:",
+        "check_include": "Check to include",
+        "search": "Search...",
+        "terms": "Terms",
+        "definition": "Definition",
+        "finish": "FINISH",
+        "acc_finish": "finish",
+        "acc_definition": "definition",
+        "acc_resources": "resources",
+        "acc_search_input": "search",
+        "acc_pause": "pause",
+        "acc_play": "play",
+        "acc_replay": "replay",
+        "acc_submit": "submit",
+        "acc_next": "next",
+        "acc_previous": "previous",
+        "acc_volume": "volume",
+        "acc_skipnavigation": "Skip Navigation. Hit enter to return to the slide.",
+        "submitall": "SUBMIT ALL",
+        "acc_submitall": "submit all",
+        "question_list": "Question List",
+        "more_info": "More info",
+        "send_an_email": "Send an email",
+        "close": "Close",
+        "bio": "Bio",
+        "exit": "Exit"
+      }
+    }
+  },
+  "fonts": [
+    {
+      "name": "Open Sans Frame Subset",
+      "files": [
+        {
+          "bold": true,
+          "italic": false,
+          "file": "player-opensansbcharset0.woff"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "file": "player-opensanscharset0.woff"
+        }
+      ]
+    }
+  ],
+  "sounds": {
+    "enabled": false,
+    "sound": []
+  },
+  "navData": {
+    "outline": {
+      "links": [
+        {
+          "kind": "slidelink",
+          "slideid": "_player.5hKLbrBpWRd",
+          "slidetitle": "",
+          "displaytext": "Untitled Scene",
+          "expand": true,
+          "type": "slide",
+          "links": [
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.60DK37yKJ2J",
+              "slidetitle": "Space Pilot",
+              "displaytext": "Space Pilot",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.6G6uqGJ0Udu",
+              "slidetitle": "Hello World",
+              "displaytext": "Hello World",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.5hzdhlUAGNV",
+              "slidetitle": "Watch Out",
+              "displaytext": "Watch Out",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.5nbaiv00tL2",
+              "slidetitle": "Double Trouble",
+              "displaytext": "Double Trouble",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.61aKmbaNyg5",
+              "slidetitle": "Ground Control",
+              "displaytext": "Ground Control",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.6AfrcQVYLVA",
+              "slidetitle": "Scenic Route",
+              "displaytext": "Scenic Route",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.60v2edlHkFF",
+              "slidetitle": "A little bit softer now",
+              "displaytext": "A little bit softer now",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.5ntSJEj2XS0",
+              "slidetitle": "Adverse Conditions",
+              "displaytext": "Adverse Conditions",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.5nMFLt3ESZG",
+              "slidetitle": "Caught in Traffic",
+              "displaytext": "Caught in Traffic",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.5fH7L5NkEru",
+              "slidetitle": "Bigger and Badder",
+              "displaytext": "Bigger and Badder",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.6VwjYizXPvG",
+              "slidetitle": "Sea Legs",
+              "displaytext": "Sea Legs",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.6Tg4qDUyqeo",
+              "slidetitle": "No Time To Explain",
+              "displaytext": "No Time To Explain",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.5vcpVGz2EtA",
+              "slidetitle": "Oh Boy",
+              "displaytext": "Oh Boy",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.6mUtV3cyLqn",
+              "slidetitle": "We're All Counting on You",
+              "displaytext": "We're All Counting on You",
+              "expand": false,
+              "type": "slide"
+            },
+            {
+              "kind": "slidelink",
+              "slideid": "_player.5hKLbrBpWRd.5pPKnCM8IJO",
+              "slidetitle": "Victory!",
+              "displaytext": "Victory!",
+              "expand": false,
+              "type": "slide"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "resourceData": {
+    "description": ""
+  }
+}

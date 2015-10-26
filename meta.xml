@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<meta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <project id="5qPidRLqGUM" courseid="6HUzA3p9Uhm_course_id" thumburl="story_content/thumbnail.jpg" title="Space Station" datepublished="2015-10-26T17:10:55" version="1.0.0.0" flashdata="story_content/data.swf" html5data="mobile/data.js" mobiledata="mobile/data.gz" enabledownload="true" duration="About 44 minutes" totalaudio="0" totalvideo="0">
+    <description />
+    <keywords />
+    <slidemeta moniker="slide" monikerplural="slides" viewslides="15" slidecountdescription="15 slides" />
+    <author name="dbackes" email="" website="" />
+    <application name="Articulate Storyline" version="3.0.5777.19913" xmlversion="4.0" />
+  </project>
+</meta>

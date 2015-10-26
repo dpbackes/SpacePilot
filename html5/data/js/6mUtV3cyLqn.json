@@ -1,0 +1,4288 @@
+{
+  "title": "We're All Counting on You",
+  "trackViews": true,
+  "showMenuResultIcon": false,
+  "viewGroupId": "",
+  "historyGroupId": "",
+  "videoZoom": "",
+  "scrolling": false,
+  "transition": "appear",
+  "transDuration": 0,
+  "transDir": 1,
+  "wipeTrans": false,
+  "slideLock": false,
+  "navIndex": -1,
+  "globalAudioId": "",
+  "thumbnailid": "",
+  "presenterRef": {
+    "id": "none"
+  },
+  "slideLayers": [
+    {
+      "enableSeek": true,
+      "enableReplay": true,
+      "timeline": {
+        "duration": 188995,
+        "events": [
+          {
+            "kind": "ontimelinetick",
+            "time": 0,
+            "actions": [
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "6SZLXn45rsm"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "objects": [
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "text",
+          "defaultAction": "",
+          "textLib": [
+            {
+              "kind": "textdata",
+              "uniqueId": "6SZLXn45rsm_-1104573991",
+              "id": "01",
+              "linkId": "txt__default_6SZLXn45rsm",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 233,
+                "bottom": 27,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 71
+                }
+              }
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 72,
+          "yPos": 46,
+          "tabIndex": 9,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 121.5,
+          "rotateYPos": 16,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 1,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 243,
+              "bottom": 32,
+              "altText": "13. We’re All Counting On You",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 70
+              }
+            },
+            "html5data": {
+              "xPos": -1,
+              "yPos": -1,
+              "width": 244,
+              "height": 33,
+              "strokewidth": 0
+            }
+          },
+          "width": 243,
+          "height": 32,
+          "resume": false,
+          "useHandCursor": true,
+          "id": "6SZLXn45rsm"
+        }
+      ],
+      "startTime": -1,
+      "elapsedTimeMode": "normal",
+      "useHandCursor": false,
+      "resume": false,
+      "kind": "slidelayer",
+      "isBaseLayer": true
+    },
+    {
+      "kind": "slidelayer",
+      "depth": 0,
+      "modal": false,
+      "pauseParent": false,
+      "rotateXPos": 534,
+      "rotateYPos": 414,
+      "tabIndex": -1,
+      "enableSeek": true,
+      "enableReplay": true,
+      "lmsId": "",
+      "timeline": {
+        "duration": 189023,
+        "events": [
+          {
+            "kind": "ontimelinetick",
+            "time": 0,
+            "actions": [
+              {
+                "kind": "show",
+                "transition": "custom",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "Entrance",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "6n4occvDJYT"
+                }
+              },
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "5ZxPWWiS4hI"
+                }
+              },
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "6TZSYjig6al"
+                }
+              },
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "5nHGiHnuVrW"
+                }
+              },
+              {
+                "kind": "show",
+                "transition": "custom",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "Entrance",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "5wByIYbwu5H"
+                }
+              },
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "63AZFW7E1j3"
+                }
+              },
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "66hqNNG6sgV"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "objects": [
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "image",
+          "defaultAction": "",
+          "imagelib": [
+            {
+              "kind": "imagedata",
+              "assetId": 0,
+              "id": "01",
+              "url": "story_content/5YzHb8rOqw7_80_DX168_DY168.swf",
+              "type": "normal",
+              "altText": "Station.png",
+              "width": 139,
+              "height": 140,
+              "mobiledx": 0,
+              "mobiledy": 0
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 1024,
+          "yPos": 366,
+          "tabIndex": 6,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 19,
+          "rotateYPos": 19,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 1,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 38,
+              "bottom": 38,
+              "altText": "Station.png",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 13
+              }
+            },
+            "html5data": {
+              "xPos": 0,
+              "yPos": 0,
+              "width": 38,
+              "height": 38,
+              "strokewidth": 0
+            }
+          },
+          "animations": [
+            {
+              "kind": "animation",
+              "id": "Entrance",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "758.5677",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "616.3918",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "501.1356",
+                          "y": "326.6482",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "501.1356",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "501.1356",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "501.1356",
+                          "y": "170.3516",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "616.3918",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "758.5677",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "758.5677",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "900.7435",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "1016",
+                          "y": "170.3516",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "1016",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "1016",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "1016",
+                          "y": "326.6481",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "900.7435",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "758.5677",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "animation",
+              "id": "Exit",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "758.5677",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "616.3918",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "501.1356",
+                          "y": "326.6482",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "501.1356",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "501.1356",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "501.1356",
+                          "y": "170.3516",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "616.3918",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "758.5677",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "758.5677",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "900.7435",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "1016",
+                          "y": "170.3516",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "1016",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "1016",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "1016",
+                          "y": "326.6481",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "900.7435",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "758.5677",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "animation",
+              "id": "6Yxniy9xSCP",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "758.5677",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "616.3918",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "501.1356",
+                          "y": "326.6482",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "501.1356",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "501.1356",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "501.1356",
+                          "y": "170.3516",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "616.3918",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "758.5677",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "758.5677",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "900.7435",
+                          "y": "106.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "1016",
+                          "y": "170.3516",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "1016",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      },
+                      {
+                        "kind": "segment",
+                        "type": "cubic",
+                        "anchora": {
+                          "x": "1016",
+                          "y": "248.4999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controla": {
+                          "x": "1016",
+                          "y": "326.6481",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "controlb": {
+                          "x": "900.7435",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "758.5677",
+                          "y": "389.9999",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            }
+          ],
+          "width": 38,
+          "height": 38,
+          "resume": false,
+          "useHandCursor": true,
+          "id": "6n4occvDJYT",
+          "actionGroups": {
+            "Entrance": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "exe_animation",
+                  "id": "6Yxniy9xSCP",
+                  "objRef": {
+                    "type": "string",
+                    "value": "_this"
+                  },
+                  "reverse": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                }
+              ]
+            }
+          },
+          "events": [
+            {
+              "kind": "onanimationcomplete",
+              "id": "6Yxniy9xSCP",
+              "reverse": false,
+              "actions": [
+                {
+                  "kind": "exe_animation",
+                  "id": "6Yxniy9xSCP",
+                  "objRef": {
+                    "type": "string",
+                    "value": "_this"
+                  },
+                  "reverse": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onanimationcomplete",
+              "id": "Entrance",
+              "reverse": false,
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "Entrance"
+                }
+              ]
+            },
+            {
+              "kind": "ontransitionin",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "kind": "vectorshape",
+          "rotation": 90,
+          "accType": "image",
+          "defaultAction": "",
+          "imagelib": [
+            {
+              "kind": "imagedata",
+              "assetId": 1,
+              "id": "01",
+              "url": "story_content/5zWEHREaska_80_DX508_DY508.swf",
+              "type": "normal",
+              "altText": "croppedShip.png",
+              "width": 211,
+              "height": 254,
+              "mobiledx": 0,
+              "mobiledy": 0
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 28,
+          "yPos": 247,
+          "tabIndex": 5,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 19,
+          "rotateYPos": 22.5,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 2,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 38,
+              "bottom": 45,
+              "altText": "croppedShip.png",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 14
+              }
+            },
+            "html5data": {
+              "xPos": 0,
+              "yPos": 0,
+              "width": 38,
+              "height": 45,
+              "strokewidth": 0
+            }
+          },
+          "animations": [
+            {
+              "kind": "animation",
+              "id": "6p3YoKfuIdQ",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "28",
+                          "y": "247",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "621.3328",
+                          "y": "248",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "cubic",
+                    "easingdir": "easeinout"
+                  }
+                }
+              ]
+            }
+          ],
+          "width": 38,
+          "height": 45,
+          "resume": false,
+          "useHandCursor": true,
+          "id": "5ZxPWWiS4hI",
+          "events": [
+            {
+              "kind": "oncollisionstart",
+              "targets": [
+                "_parent.6n4occvDJYT"
+              ],
+              "actions": [
+                {
+                  "kind": "show_slidelayer",
+                  "hideOthers": "oncomplete",
+                  "transition": "appear",
+                  "duration": 0,
+                  "direction": 1,
+                  "reverse": false,
+                  "objRef": {
+                    "type": "string",
+                    "value": "_parent._parent.6k2gZSD77Sa"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "oncollisionstart",
+              "targets": [
+                "_parent.5nHGiHnuVrW",
+                "_parent.5wByIYbwu5H",
+                "_parent.63AZFW7E1j3"
+              ],
+              "actions": [
+                {
+                  "kind": "show_slidelayer",
+                  "hideOthers": "oncomplete",
+                  "transition": "appear",
+                  "duration": 0,
+                  "direction": 1,
+                  "reverse": false,
+                  "objRef": {
+                    "type": "string",
+                    "value": "_parent._parent.5cFGrPvQfSw"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "button",
+          "defaultAction": "onrelease",
+          "textLib": [
+            {
+              "kind": "textdata",
+              "uniqueId": "5hZlMhSwD6d_-957634537",
+              "id": "01",
+              "linkId": "txt__default_6TZSYjig6al",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 62,
+                "bottom": 22,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 20
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6HkG7Ifkge1_1313736543",
+              "id": "02",
+              "linkId": "txt__default_Disabled_6TZSYjig6al",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 62,
+                "bottom": 22,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 20
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6Hs9u1Hbq1r_-269106995",
+              "id": "03",
+              "linkId": "txt__default_Down_6TZSYjig6al",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 62,
+                "bottom": 22,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 20
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "5YazPsnwU7m_-225202815",
+              "id": "04",
+              "linkId": "txt__default_Visited_6TZSYjig6al",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 62,
+                "bottom": 22,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 20
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "5nOG3GrlaLp_-1302203640",
+              "id": "05",
+              "linkId": "txt__default_Hover_6TZSYjig6al",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 62,
+                "bottom": 22,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 20
+                }
+              }
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 33,
+          "yPos": 502,
+          "tabIndex": 7,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 36,
+          "rotateYPos": 12,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 3,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 72,
+              "bottom": 24,
+              "altText": "Launch",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 15
+              }
+            },
+            "html5data": {
+              "xPos": -1,
+              "yPos": -1,
+              "width": 73,
+              "height": 25,
+              "strokewidth": 0
+            }
+          },
+          "states": [
+            {
+              "kind": "state",
+              "name": "_default_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 16
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Down",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 17
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 18
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Visited_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 16
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Down_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 17
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 19
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 16
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Down",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 17
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 19
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Visited_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 16
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Down_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 72,
+                  "bottom": 24,
+                  "altText": "Launch",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 17
+                  }
+                },
+                "html5data": {
+                  "xPos": 0,
+                  "yPos": 0,
+                  "width": 72,
+                  "height": 24,
+                  "strokewidth": 0
+                }
+              }
+            }
+          ],
+          "width": 72,
+          "height": 24,
+          "resume": true,
+          "useHandCursor": true,
+          "id": "6TZSYjig6al",
+          "variables": [
+            {
+              "kind": "variable",
+              "name": "_hover",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_down",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_visited",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_disabled",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_savevisited",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_state",
+              "type": "string",
+              "value": "_default",
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_stateName",
+              "type": "string",
+              "value": "",
+              "resume": true
+            }
+          ],
+          "actionGroups": {
+            "ActGrpSetVisitedState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_savevisited",
+                  "operator": "set",
+                  "value": {
+                    "type": "var",
+                    "value": "_visited"
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_visited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetHoverState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpClearHoverState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetDisabledState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_disabled",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetDownState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpClearStateVars": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_visited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_disabled",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_savevisited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                }
+              ]
+            }
+          },
+          "events": [
+            {
+              "kind": "onrelease",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetVisitedState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                },
+                {
+                  "kind": "if_action",
+                  "condition": {
+                    "statement": {
+                      "kind": "and",
+                      "statements": [
+                        {
+                          "kind": "and",
+                          "statements": [
+                            {
+                              "kind": "compare",
+                              "operator": "eq",
+                              "valuea": "_player.pressed",
+                              "typea": "var",
+                              "valueb": false,
+                              "typeb": "boolean"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "thenActions": [
+                    {
+                      "kind": "exe_animation",
+                      "id": "6p3YoKfuIdQ",
+                      "objRef": {
+                        "type": "string",
+                        "value": "_parent.5ZxPWWiS4hI"
+                      },
+                      "reverse": {
+                        "type": "boolean",
+                        "value": false
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_player.pressed",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ontransitionin",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onrollover",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetHoverState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onrollout",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpClearHoverState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onpress",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetDownState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onreleaseoutside",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "image",
+          "defaultAction": "",
+          "imagelib": [
+            {
+              "kind": "imagedata",
+              "assetId": 5,
+              "id": "01",
+              "url": "story_content/6EXl3ZVqVY6_80_DX144_DY144.swf",
+              "type": "normal",
+              "altText": "planet.png",
+              "width": 144,
+              "height": 144,
+              "mobiledx": 0,
+              "mobiledy": 0
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 604,
+          "yPos": 235,
+          "tabIndex": 3,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 36,
+          "rotateYPos": 36,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 4,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 72,
+              "bottom": 72,
+              "altText": "planet.png",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 61
+              }
+            },
+            "html5data": {
+              "xPos": 0,
+              "yPos": 0,
+              "width": 72,
+              "height": 72,
+              "strokewidth": 0
+            }
+          },
+          "width": 72,
+          "height": 72,
+          "resume": false,
+          "useHandCursor": true,
+          "id": "5nHGiHnuVrW"
+        },
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "image",
+          "defaultAction": "",
+          "imagelib": [
+            {
+              "kind": "imagedata",
+              "assetId": 3,
+              "id": "01",
+              "url": "story_content/6Bp3wK4vyjj_80_DX508_DY508.swf",
+              "type": "normal",
+              "altText": "redShip.png",
+              "width": 211,
+              "height": 254,
+              "mobiledx": 0,
+              "mobiledy": 0
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 304,
+          "yPos": 566,
+          "tabIndex": 8,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 105.5,
+          "rotateYPos": 127,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 5,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 211,
+              "bottom": 254,
+              "altText": "redShip.png",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 57
+              }
+            },
+            "html5data": {
+              "xPos": 0,
+              "yPos": 0,
+              "width": 211,
+              "height": 254,
+              "strokewidth": 0
+            }
+          },
+          "animations": [
+            {
+              "kind": "animation",
+              "id": "Entrance",
+              "duration": 2600,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2600,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "304",
+                          "y": "566",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "302.5",
+                          "y": "-274.0003",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2600,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "animation",
+              "id": "Exit",
+              "duration": 2600,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2600,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "304",
+                          "y": "566",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "302.5",
+                          "y": "-274.0003",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2600,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "animation",
+              "id": "5at4k8JcSZB",
+              "duration": 2600,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2600,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "304",
+                          "y": "566",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "302.5",
+                          "y": "-274.0003",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2600,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            }
+          ],
+          "width": 211,
+          "height": 254,
+          "resume": false,
+          "useHandCursor": true,
+          "id": "5wByIYbwu5H",
+          "actionGroups": {
+            "Entrance": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "exe_animation",
+                  "id": "5at4k8JcSZB",
+                  "objRef": {
+                    "type": "string",
+                    "value": "_this"
+                  },
+                  "reverse": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "if_action",
+                  "condition": {
+                    "statement": {
+                      "kind": "and",
+                      "statements": [
+                        {
+                          "kind": "and",
+                          "statements": [
+                            {
+                              "kind": "compare",
+                              "operator": "eq",
+                              "valuea": "_player.asteroidHit",
+                              "typea": "var",
+                              "valueb": false,
+                              "typeb": "boolean"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "thenActions": [
+                    {
+                      "kind": "exe_animation",
+                      "id": "6nOw9l7Y28p",
+                      "objRef": {
+                        "type": "string",
+                        "value": "_parent.66hqNNG6sgV"
+                      },
+                      "reverse": {
+                        "type": "boolean",
+                        "value": false
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "events": [
+            {
+              "kind": "ontransitionin",
+              "actions": []
+            },
+            {
+              "kind": "onanimationcomplete",
+              "id": "5at4k8JcSZB",
+              "reverse": false,
+              "actions": [
+                {
+                  "kind": "exe_animation",
+                  "id": "5at4k8JcSZB",
+                  "objRef": {
+                    "type": "string",
+                    "value": "_this"
+                  },
+                  "reverse": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "if_action",
+                  "condition": {
+                    "statement": {
+                      "kind": "and",
+                      "statements": [
+                        {
+                          "kind": "and",
+                          "statements": [
+                            {
+                              "kind": "compare",
+                              "operator": "eq",
+                              "valuea": "_player.asteroidHit",
+                              "typea": "var",
+                              "valueb": false,
+                              "typeb": "boolean"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "thenActions": [
+                    {
+                      "kind": "exe_animation",
+                      "id": "6nOw9l7Y28p",
+                      "objRef": {
+                        "type": "string",
+                        "value": "_parent.66hqNNG6sgV"
+                      },
+                      "reverse": {
+                        "type": "boolean",
+                        "value": false
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "onanimationcomplete",
+              "id": "Entrance",
+              "reverse": false,
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "Entrance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "vectorshape",
+          "rotation": 270,
+          "accType": "image",
+          "defaultAction": "",
+          "imagelib": [
+            {
+              "kind": "imagedata",
+              "assetId": 3,
+              "id": "01",
+              "url": "story_content/6Bp3wK4vyjj_80_DX508_DY508.swf",
+              "type": "normal",
+              "altText": "redShip.png",
+              "width": 211,
+              "height": 254,
+              "mobiledx": 0,
+              "mobiledy": 0
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 238,
+          "yPos": 235,
+          "tabIndex": 4,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 29.5,
+          "rotateYPos": 35.5,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 6,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 59,
+              "bottom": 71,
+              "altText": "redShip.png",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 72
+              }
+            },
+            "html5data": {
+              "xPos": 0,
+              "yPos": 0,
+              "width": 59,
+              "height": 71,
+              "strokewidth": 0
+            }
+          },
+          "animations": [
+            {
+              "kind": "animation",
+              "id": "64WNclN1kpv",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "238",
+                          "y": "235",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "738.5",
+                          "y": "618.0376",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "cubic",
+                    "easingdir": "easeinout"
+                  }
+                }
+              ]
+            }
+          ],
+          "width": 59,
+          "height": 71,
+          "resume": false,
+          "useHandCursor": true,
+          "id": "63AZFW7E1j3"
+        },
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "image",
+          "defaultAction": "",
+          "imagelib": [
+            {
+              "kind": "imagedata",
+              "assetId": 2,
+              "id": "01",
+              "url": "story_content/6mkI2tqrq6Y_80_DX256_DY256.swf",
+              "type": "normal",
+              "altText": "asteroid.png",
+              "width": 128,
+              "height": 128,
+              "mobiledx": 0,
+              "mobiledy": 0
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": -168,
+          "yPos": -146,
+          "tabIndex": 2,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 36,
+          "rotateYPos": 36,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 7,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": 0,
+              "top": 0,
+              "right": 72,
+              "bottom": 72,
+              "altText": "asteroid.png",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 73
+              }
+            },
+            "html5data": {
+              "xPos": 0,
+              "yPos": 0,
+              "width": 72,
+              "height": 72,
+              "strokewidth": 0
+            }
+          },
+          "animations": [
+            {
+              "kind": "animation",
+              "id": "Exit",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": true,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "$RawXPos",
+                          "y": "$RawYPos",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "$RawXPos",
+                          "y": "$RawYPos",
+                          "dx": "-364.0001",
+                          "dy": "378"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "animation",
+              "id": "6nOw9l7Y28p",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": false,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "-168",
+                          "y": "-146",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "188",
+                          "y": "218",
+                          "dx": "0",
+                          "dy": "0"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "animation",
+              "id": "6b4ANPGndfM",
+              "duration": 2000,
+              "hidetextatstart": true,
+              "animateshapewithtext": false,
+              "tweens": [
+                {
+                  "kind": "tween",
+                  "time": 0,
+                  "duration": 2000,
+                  "position": {
+                    "relativerotation": false,
+                    "relativestartpoint": true,
+                    "path": [
+                      {
+                        "kind": "segment",
+                        "type": "line",
+                        "anchora": {
+                          "x": "$RawXPos",
+                          "y": "$RawYPos",
+                          "dx": "0",
+                          "dy": "0"
+                        },
+                        "anchorb": {
+                          "x": "$RawXPos",
+                          "y": "$RawYPos",
+                          "dx": "-364.0001",
+                          "dy": "378"
+                        }
+                      }
+                    ],
+                    "duration": 2000,
+                    "easing": "linear",
+                    "easingdir": "easein"
+                  }
+                }
+              ]
+            }
+          ],
+          "width": 72,
+          "height": 72,
+          "resume": false,
+          "useHandCursor": true,
+          "id": "66hqNNG6sgV",
+          "events": [
+            {
+              "kind": "onanimationcomplete",
+              "id": "6nOw9l7Y28p",
+              "reverse": false,
+              "actions": [
+                {
+                  "kind": "exe_animation",
+                  "id": "6b4ANPGndfM",
+                  "objRef": {
+                    "type": "string",
+                    "value": "_this"
+                  },
+                  "reverse": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_animation",
+                  "id": "64WNclN1kpv",
+                  "objRef": {
+                    "type": "string",
+                    "value": "_parent.63AZFW7E1j3"
+                  },
+                  "reverse": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_player.asteroidHit",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ontransitionin",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_player.asteroidHit",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "startTime": -1,
+      "elapsedTimeMode": "normal",
+      "width": 1069,
+      "height": 828,
+      "resume": false,
+      "useHandCursor": false,
+      "id": "63CsL1eYLwd",
+      "events": [
+        {
+          "kind": "onslidestart",
+          "actions": [
+            {
+              "kind": "adjustvar",
+              "variable": "_player.pressed",
+              "operator": "set",
+              "value": {
+                "type": "boolean",
+                "value": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "slidelayer",
+      "depth": 0,
+      "modal": false,
+      "pauseParent": false,
+      "rotateXPos": 360,
+      "rotateYPos": 270,
+      "tabIndex": -1,
+      "enableSeek": true,
+      "enableReplay": true,
+      "lmsId": "",
+      "timeline": {
+        "duration": 5000,
+        "events": [
+          {
+            "kind": "ontimelinetick",
+            "time": 0,
+            "actions": [
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "65CyeB0qzlG"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "objects": [
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "button",
+          "defaultAction": "onrelease",
+          "textLib": [
+            {
+              "kind": "textdata",
+              "uniqueId": "6c60PQWDRCZ_-25777709",
+              "id": "01",
+              "linkId": "txt__default_65CyeB0qzlG",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 235,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 26
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6Yc5ZUoOXik_-1259781137",
+              "id": "02",
+              "linkId": "txt__default_Disabled_65CyeB0qzlG",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 235,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 26
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6Cj3IzoDGA8_-268193128",
+              "id": "03",
+              "linkId": "txt__default_Down_65CyeB0qzlG",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 235,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 26
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6cjJtWWv3yy_-1886603366",
+              "id": "04",
+              "linkId": "txt__default_Visited_65CyeB0qzlG",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 235,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 26
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6V5PFLI4drB_15589652",
+              "id": "05",
+              "linkId": "txt__default_Hover_65CyeB0qzlG",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 235,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 26
+                }
+              }
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 160,
+          "yPos": 174,
+          "tabIndex": 1,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 196,
+          "rotateYPos": 96,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 1,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": -1,
+              "top": -1,
+              "right": 393,
+              "bottom": 193,
+              "altText": "Success!",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 21
+              }
+            },
+            "html5data": {
+              "xPos": -1,
+              "yPos": -1,
+              "width": 393,
+              "height": 193,
+              "strokewidth": 1
+            }
+          },
+          "states": [
+            {
+              "kind": "state",
+              "name": "_default_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 22
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Down",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 23
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 24
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Visited_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 22
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Down_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 23
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 25
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 22
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Down",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 23
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 25
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Visited_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 22
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Down_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 393,
+                  "bottom": 193,
+                  "altText": "Success!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 23
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 394,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            }
+          ],
+          "width": 392,
+          "height": 192,
+          "resume": true,
+          "useHandCursor": true,
+          "id": "65CyeB0qzlG",
+          "variables": [
+            {
+              "kind": "variable",
+              "name": "_hover",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_down",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_visited",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_disabled",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_savevisited",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_state",
+              "type": "string",
+              "value": "_default",
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_stateName",
+              "type": "string",
+              "value": "",
+              "resume": true
+            }
+          ],
+          "actionGroups": {
+            "ActGrpSetVisitedState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_savevisited",
+                  "operator": "set",
+                  "value": {
+                    "type": "var",
+                    "value": "_visited"
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_visited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetHoverState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpClearHoverState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetDisabledState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_disabled",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetDownState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpClearStateVars": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_visited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_disabled",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_savevisited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                }
+              ]
+            }
+          },
+          "events": [
+            {
+              "kind": "onrelease",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetVisitedState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                },
+                {
+                  "kind": "gotoplay",
+                  "window": "_current",
+                  "wndtype": "normal",
+                  "objRef": {
+                    "type": "string",
+                    "value": "_player.5hKLbrBpWRd.5pPKnCM8IJO"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ontransitionin",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onrollover",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetHoverState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onrollout",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpClearHoverState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onpress",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetDownState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onreleaseoutside",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "startTime": -1,
+      "elapsedTimeMode": "normal",
+      "width": 720,
+      "height": 540,
+      "resume": true,
+      "useHandCursor": false,
+      "id": "6k2gZSD77Sa"
+    },
+    {
+      "kind": "slidelayer",
+      "depth": 0,
+      "modal": false,
+      "pauseParent": false,
+      "rotateXPos": 360,
+      "rotateYPos": 270,
+      "tabIndex": -1,
+      "enableSeek": true,
+      "enableReplay": true,
+      "lmsId": "",
+      "timeline": {
+        "duration": 5000,
+        "events": [
+          {
+            "kind": "ontimelinetick",
+            "time": 0,
+            "actions": [
+              {
+                "kind": "show",
+                "transition": "appear",
+                "duration": 0,
+                "direction": 0,
+                "animationId": "",
+                "reverse": false,
+                "objRef": {
+                  "type": "string",
+                  "value": "6f8lEvNEehD"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "objects": [
+        {
+          "kind": "vectorshape",
+          "rotation": 0,
+          "accType": "button",
+          "defaultAction": "onrelease",
+          "textLib": [
+            {
+              "kind": "textdata",
+              "uniqueId": "6QNVMcllsWV_-455554734",
+              "id": "01",
+              "linkId": "txt__default_6f8lEvNEehD",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 234,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 35
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "5XLXUOmote0_1289952132",
+              "id": "02",
+              "linkId": "txt__default_Disabled_6f8lEvNEehD",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 234,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 35
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6GnoXfUXab6_739698977",
+              "id": "03",
+              "linkId": "txt__default_Down_6f8lEvNEehD",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 234,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 35
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "6OlXVANghmz_-1840804810",
+              "id": "04",
+              "linkId": "txt__default_Visited_6f8lEvNEehD",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 234,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 35
+                }
+              }
+            },
+            {
+              "kind": "textdata",
+              "uniqueId": "5cy3iIfvAuL_-126002588",
+              "id": "05",
+              "linkId": "txt__default_Hover_6f8lEvNEehD",
+              "type": "vectortext",
+              "xPos": 0,
+              "yPos": 0,
+              "width": 0,
+              "height": 0,
+              "shadowIndex": -1,
+              "vectortext": {
+                "left": 0,
+                "top": 0,
+                "right": 234,
+                "bottom": 110,
+                "pngfb": false,
+                "pr": {
+                  "l": "Lib",
+                  "i": 35
+                }
+              }
+            }
+          ],
+          "shapemaskId": "",
+          "xPos": 168,
+          "yPos": 174,
+          "tabIndex": 0,
+          "tabEnabled": true,
+          "xOffset": 0,
+          "yOffset": 0,
+          "rotateXPos": 192,
+          "rotateYPos": 96,
+          "scaleX": 100,
+          "scaleY": 100,
+          "alpha": 100,
+          "depth": 1,
+          "scrolling": true,
+          "shuffleLock": false,
+          "data": {
+            "hotlinkId": "",
+            "accState": 0,
+            "vectorData": {
+              "left": -1,
+              "top": -1,
+              "right": 385,
+              "bottom": 193,
+              "altText": "Disaster!",
+              "pngfb": false,
+              "pr": {
+                "l": "Lib",
+                "i": 30
+              }
+            },
+            "html5data": {
+              "xPos": -1,
+              "yPos": -1,
+              "width": 385,
+              "height": 193,
+              "strokewidth": 1
+            }
+          },
+          "states": [
+            {
+              "kind": "state",
+              "name": "_default_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 31
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Down",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 32
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 33
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Visited_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 31
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Down_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 32
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 34
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 31
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Down",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 32
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 0,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 34
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Visited_Disabled",
+              "data": {
+                "hotlinkId": "",
+                "accState": 1,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 31
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            },
+            {
+              "kind": "state",
+              "name": "_default_Hover_Down_Visited",
+              "data": {
+                "hotlinkId": "",
+                "accState": 8,
+                "vectorData": {
+                  "left": -1,
+                  "top": -1,
+                  "right": 385,
+                  "bottom": 193,
+                  "altText": "Disaster!",
+                  "pngfb": false,
+                  "pr": {
+                    "l": "Lib",
+                    "i": 32
+                  }
+                },
+                "html5data": {
+                  "xPos": -1,
+                  "yPos": -1,
+                  "width": 386,
+                  "height": 194,
+                  "strokewidth": 1
+                }
+              }
+            }
+          ],
+          "width": 384,
+          "height": 192,
+          "resume": true,
+          "useHandCursor": true,
+          "id": "6f8lEvNEehD",
+          "variables": [
+            {
+              "kind": "variable",
+              "name": "_hover",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_down",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_visited",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_disabled",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_savevisited",
+              "type": "boolean",
+              "value": false,
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_state",
+              "type": "string",
+              "value": "_default",
+              "resume": true
+            },
+            {
+              "kind": "variable",
+              "name": "_stateName",
+              "type": "string",
+              "value": "",
+              "resume": true
+            }
+          ],
+          "actionGroups": {
+            "ActGrpSetVisitedState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_savevisited",
+                  "operator": "set",
+                  "value": {
+                    "type": "var",
+                    "value": "_visited"
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_visited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetHoverState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpClearHoverState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetDisabledState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_disabled",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpSetDownState": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": true
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            "ActGrpClearStateVars": {
+              "kind": "actiongroup",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_hover",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_visited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_disabled",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_savevisited",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                }
+              ]
+            }
+          },
+          "events": [
+            {
+              "kind": "onrelease",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetVisitedState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                },
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                },
+                {
+                  "kind": "show_slidelayer",
+                  "hideOthers": "oncomplete",
+                  "transition": "appear",
+                  "duration": 0,
+                  "direction": 1,
+                  "reverse": false,
+                  "objRef": {
+                    "type": "string",
+                    "value": "_parent._parent.63CsL1eYLwd"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "ontransitionin",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onrollover",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetHoverState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onrollout",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpClearHoverState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onpress",
+              "actions": [
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "ActGrpSetDownState",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "onreleaseoutside",
+              "actions": [
+                {
+                  "kind": "adjustvar",
+                  "variable": "_down",
+                  "operator": "set",
+                  "value": {
+                    "type": "boolean",
+                    "value": false
+                  }
+                },
+                {
+                  "kind": "exe_actiongroup",
+                  "id": "_player._setstates",
+                  "scopeRef": {
+                    "type": "string",
+                    "value": "_this"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "startTime": -1,
+      "elapsedTimeMode": "normal",
+      "width": 720,
+      "height": 540,
+      "resume": true,
+      "useHandCursor": false,
+      "id": "5cFGrPvQfSw"
+    }
+  ],
+  "showAnimationId": "",
+  "lmsId": "Slide14",
+  "width": 720,
+  "height": 540,
+  "resume": false,
+  "background": {
+    "type": "fill",
+    "fill": {
+      "type": "linear",
+      "rotation": 90,
+      "colors": [
+        {
+          "kind": "color",
+          "rgb": "0x000000",
+          "alpha": 100,
+          "stop": 0
+        }
+      ]
+    }
+  },
+  "id": "6mUtV3cyLqn",
+  "events": [
+    {
+      "kind": "onslidestart",
+      "actions": [
+        {
+          "kind": "show_slidelayer",
+          "hideOthers": "oncomplete",
+          "transition": "appear",
+          "duration": 0,
+          "direction": 1,
+          "reverse": false,
+          "objRef": {
+            "type": "string",
+            "value": "63CsL1eYLwd"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "onbeforeslidein",
+      "actions": [
+        {
+          "kind": "if_action",
+          "condition": {
+            "statement": {
+              "kind": "compare",
+              "operator": "eq",
+              "valuea": "WindowId",
+              "typea": "property",
+              "valueb": "_frame",
+              "typeb": "string"
+            }
+          },
+          "thenActions": [
+            {
+              "kind": "set_frame_layout",
+              "name": "npnxnsnfns00000000001"
+            }
+          ],
+          "elseActions": [
+            {
+              "kind": "set_window_control_layout",
+              "name": "npnxnsnfns00000000001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ontransitionin",
+      "actions": [
+        {
+          "kind": "adjustvar",
+          "variable": "_player.LastSlideViewed_6HUzA3p9Uhm",
+          "operator": "set",
+          "value": {
+            "type": "string",
+            "value": "_player."
+          }
+        },
+        {
+          "kind": "adjustvar",
+          "variable": "_player.LastSlideViewed_6HUzA3p9Uhm",
+          "operator": "add",
+          "value": {
+            "type": "property",
+            "value": "AbsoluteId"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bwContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="_player" version="3.0.5777.19913" bwversion="4.0" tincan_version="1.0" projectid="5qPidRLqGUM" courseid="6HUzA3p9Uhm_course_id" entrypoint="_player.5hKLbrBpWRd" iosfonts="mobile/fonts.js" flashfonts="story_content/fonts.swf" debugmode="true" lessonduration="0" textdirection="ltr">
+  <variables>
+    <variable name="asteroidHit" type="boolean" value="false" resume="true" />
+    <variable name="pressed" type="boolean" value="false" resume="true" />
+    <variable name="LastSlideViewed_6HUzA3p9Uhm" type="string" value="_player.5hKLbrBpWRd.60DK37yKJ2J" resume="true" />
+    <variable name="PrintPromptWindowQuizVar_6YiNfCekEgV" type="string" value="" resume="true" />
+    <variable name="PrintPromptUsername_6YiNfCekEgV" type="string" value="" resume="true" />
+  </variables>
+  <actiongroups>
+    <actiongroup id="ActGrpOnPrevButtonClick">
+      <actions>
+        <trigger_prev_slide />
+      </actions>
+    </actiongroup>
+    <actiongroup id="ActGrpOnNextButtonClick">
+      <actions>
+        <trigger_next_slide />
+      </actions>
+    </actiongroup>
+    <actiongroup id="ActGrpOnFinishButtonClick">
+      <actions>
+        <trigger_slide_finish />
+      </actions>
+    </actiongroup>
+    <actiongroup id="ActGrpOnSubmitButtonClick">
+      <actions>
+        <trigger_submit_slide />
+      </actions>
+    </actiongroup>
+    <actiongroup id="ActGrpOnSubmitAllButtonClick">
+      <actions>
+        <trigger_submitall_slide />
+      </actions>
+    </actiongroup>
+    <actiongroup id="_setstates">
+      <actions>
+        <if_action>
+          <condition>
+            <varexists value="_state" type="string" />
+          </condition>
+          <then_actions>
+            <if_action>
+              <condition>
+                <and>
+                  <varexists value="_disabled" type="string" />
+                  <compare operator="eq" valuea="_disabled" typea="var" valueb="true" typeb="boolean" />
+                </and>
+              </condition>
+              <then_actions>
+                <set_enabled>
+                  <objref type="string" value="_this" />
+                  <enabled type="boolean" value="false" />
+                </set_enabled>
+              </then_actions>
+              <else_actions>
+                <set_enabled>
+                  <objref type="string" value="_this" />
+                  <enabled type="boolean" value="true" />
+                </set_enabled>
+              </else_actions>
+            </if_action>
+            <adjustvar variable="_stateName" operator="set">
+              <value type="var" value="_state" />
+            </adjustvar>
+            <foreach>
+              <iterables>
+                <iterable>
+                  <valueref name="valueref1" type="string" value="_hover" />
+                  <valueref name="valueref2" type="var" value="_hover" />
+                  <valueref name="valueref3" type="string" value="_Hover" />
+                </iterable>
+                <iterable>
+                  <valueref name="valueref1" type="string" value="_down" />
+                  <valueref name="valueref2" type="var" value="_down" />
+                  <valueref name="valueref3" type="string" value="_Down" />
+                </iterable>
+                <iterable>
+                  <valueref name="valueref1" type="string" value="_visited" />
+                  <valueref name="valueref2" type="var" value="_visited" />
+                  <valueref name="valueref3" type="string" value="_Visited" />
+                </iterable>
+                <iterable>
+                  <valueref name="valueref1" type="string" value="_disabled" />
+                  <valueref name="valueref2" type="var" value="_disabled" />
+                  <valueref name="valueref3" type="string" value="_Disabled" />
+                </iterable>
+                <iterable>
+                  <valueref name="valueref1" type="string" value="Up" />
+                  <valueref name="valueref2" type="var" value="Up" />
+                  <valueref name="valueref3" type="string" value="" />
+                </iterable>
+              </iterables>
+              <actions>
+                <if_action>
+                  <condition>
+                    <and>
+                      <varexists value="valueref1" type="valueref" />
+                      <compare operator="eq" valuea="valueref2" typea="valueref" valueb="true" typeb="boolean" />
+                    </and>
+                  </condition>
+                  <then_actions>
+                    <adjustvar variable="_stateName" operator="add">
+                      <value type="valueref" value="valueref3" />
+                    </adjustvar>
+                  </then_actions>
+                </if_action>
+              </actions>
+            </foreach>
+            <if_action>
+              <condition>
+                <actiongroupexists value="SetCustomStateProperties" type="string" />
+              </condition>
+              <then_actions>
+                <exe_actiongroup id="SetCustomStateProperties" />
+              </then_actions>
+            </if_action>
+            <setobjstate>
+              <stateref type="var" value="_stateName" />
+              <objref type="string" value="_this" />
+            </setobjstate>
+          </then_actions>
+        </if_action>
+        <if_action>
+          <condition>
+            <and>
+              <actiongroupexists value="ActGrpSetStatesFinal" type="string" />
+            </and>
+          </condition>
+          <then_actions>
+            <exe_actiongroup id="ActGrpSetStatesFinal" />
+          </then_actions>
+        </if_action>
+      </actions>
+    </actiongroup>
+  </actiongroups>
+  <events>
+    <onobjectevent eventname="prev_pressed">
+      <actions>
+        <exe_actiongroup id="ActGrpOnPrevButtonClick" />
+      </actions>
+    </onobjectevent>
+    <onobjectevent eventname="next_pressed">
+      <actions>
+        <exe_actiongroup id="ActGrpOnNextButtonClick" />
+      </actions>
+    </onobjectevent>
+    <onobjectevent eventname="finish_pressed">
+      <actions>
+        <exe_actiongroup id="ActGrpOnFinishButtonClick" />
+      </actions>
+    </onobjectevent>
+    <onobjectevent eventname="submit_pressed">
+      <actions>
+        <exe_actiongroup id="ActGrpOnSubmitButtonClick" />
+      </actions>
+    </onobjectevent>
+    <onobjectevent eventname="submitall_pressed">
+      <actions>
+        <exe_actiongroup id="ActGrpOnSubmitAllButtonClick" />
+      </actions>
+    </onobjectevent>
+  </events>
+  <slidemap queuesize="3">
+    <slideref id="MsgScene_6HUzA3p9Uhm.InvalidPromptSlide" type="slide" />
+    <slideref id="MsgScene_6HUzA3p9Uhm.PrintPromptSlide" type="slide" />
+    <slideref id="MsgScene_6HUzA3p9Uhm.ScrollPromptSlide" type="slide" />
+    <slideref id="PromptScene.ResumePromptSlide" type="slide" />
+    <slideref id="PromptScene.ExternalInterfaceErrorSlide" type="slide" />
+    <slideref id="5hKLbrBpWRd.60DK37yKJ2J" type="slide">
+      <assets>
+        <asset assetId="0" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.6G6uqGJ0Udu" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.6G6uqGJ0Udu" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.5hzdhlUAGNV" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.5hzdhlUAGNV" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.5nbaiv00tL2" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.5nbaiv00tL2" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.61aKmbaNyg5" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.61aKmbaNyg5" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.6AfrcQVYLVA" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.6AfrcQVYLVA" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.60v2edlHkFF" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.60v2edlHkFF" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.5ntSJEj2XS0" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.5ntSJEj2XS0" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+        <asset assetId="3" />
+        <asset assetId="4" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.5nMFLt3ESZG" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.5nMFLt3ESZG" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+        <asset assetId="3" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.5fH7L5NkEru" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.5fH7L5NkEru" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="3" />
+        <asset assetId="2" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.6VwjYizXPvG" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.6VwjYizXPvG" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+        <asset assetId="5" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.6Tg4qDUyqeo" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.6Tg4qDUyqeo" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="2" />
+        <asset assetId="5" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.5vcpVGz2EtA" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.5vcpVGz2EtA" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="5" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.6mUtV3cyLqn" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.6mUtV3cyLqn" type="slide">
+      <assets>
+        <asset assetId="0" />
+        <asset assetId="1" />
+        <asset assetId="5" />
+        <asset assetId="3" />
+        <asset assetId="2" />
+      </assets>
+      <linksto>
+        <link id="5hKLbrBpWRd.5pPKnCM8IJO" type="slide" />
+      </linksto>
+    </slideref>
+    <slideref id="5hKLbrBpWRd.5pPKnCM8IJO" type="slide">
+      <assets>
+        <asset assetId="1" />
+      </assets>
+    </slideref>
+  </slidemap>
+  <display windowswf="story_content/frame.swf" framedata="story_content/frame.xml" width="740" height="583">
+    <windows>
+      <window id="MessageWnd" linkid="StoryWindow" width="420" height="210" alignto="content" align="center" valign="center" />
+      <window id="LightboxWnd" linkid="StoryPopup" width="620" height="467" alignto="player" align="center" valign="center" />
+      <window id="LightboxControlsWnd" linkid="StoryPopupControls" width="624" height="509" alignto="player" align="center" valign="center" />
+    </windows>
+  </display>
+  <resume id="5xBsAchftRz" window="MessageWnd" slideid="_player.PromptScene.ResumePromptSlide" lmsresume="true" flashresume="true" prompt="true" everyslide="false" />
+  <error_msgs>
+    <error id="external_interface" window="MessageWnd" slideid="_player.PromptScene.ExternalInterfaceErrorSlide" />
+  </error_msgs>
+  <scenes>
+    <scene id="MsgScene_6HUzA3p9Uhm" lmsid="" isMessageScene="true" startingslide="_player.MsgScene_6HUzA3p9Uhm.InvalidPromptSlide">
+      <slides>
+        <slide id="InvalidPromptSlide" width="420" height="210" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="" starttime="-1" elapsedtimemode="normal" title="&lt;p dir='ltr' align='left'&gt;&lt;font face='Open Sans'&gt;Invalid Answer&lt;/font&gt;&lt;/p&gt;" trackviews="false" showmenuresulticon="false" viewgroupid="" historygroupid="prompt" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="">
+          <timeline duration="1000">
+            <events>
+              <event time="0">
+                <actions>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="6HUzA3p9Uhm_InvalidPromptSlide_btn0" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="InvalidPromptSlide_Scroll.6HUzA3p9Uhm_InvalidPromptSlide_text" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="InvalidPromptSlide_Scroll" />
+                  </show>
+                </actions>
+              </event>
+            </events>
+          </timeline>
+          <objects>
+            <scrollarea id="InvalidPromptSlide_Scroll" width="411" height="78" resume="false" usehandcursor="true" shapemaskid="" xpos="13" ypos="16" tabindex="0" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="205.5" rotateypos="39" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" contentwidth="383" contentheight="52">
+              <objects>
+                <vectorshape id="6HUzA3p9Uhm_InvalidPromptSlide_text" width="388" height="52" resume="false" usehandcursor="true" shapemaskid="" xpos="0" ypos="0" tabindex="1" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="194" rotateypos="26" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" acctype="text" defaultaction="">
+                  <data hotlinkid="" accstate="0">
+                    <vectordata left="0" top="0" right="378" bottom="52" alttext="You must complete the question before submitting." pngfb="false">
+                      <pr l="common" i="0" />
+                    </vectordata>
+                  </data>
+                  <textlib>
+                    <textdata uniqueId="6HUzA3p9Uhm_InvalidPromptSlide_text" id="01" linkid="6HUzA3p9Uhm_InvalidPromptSlide_text" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                      <vectortext left="0" top="0" right="378" bottom="52" pngfb="false">
+                        <pr l="common" i="1" />
+                      </vectortext>
+                    </textdata>
+                  </textlib>
+                </vectorshape>
+              </objects>
+            </scrollarea>
+            <button id="6HUzA3p9Uhm_InvalidPromptSlide_btn0" width="100" height="30" resume="false" usehandcursor="true" shapemaskid="" xpos="160" ypos="110" tabindex="2" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="50" rotateypos="15" xscale="100" yscale="100" alpha="100" rotation="0" depth="2" scrolling="true" shufflelock="false">
+              <events>
+                <ontransitionincomplete>
+                  <actions>
+                    <setfocus showrect="false">
+                      <value type="string" value="_this" />
+                    </setfocus>
+                  </actions>
+                </ontransitionincomplete>
+                <onrelease>
+                  <actions>
+                    <close_window id="MessageWnd" />
+                  </actions>
+                </onrelease>
+              </events>
+              <colors>
+                <color name="slide_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x555555" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="html_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x444444" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_bg">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                      <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_hover">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                      <color rgb="0xAFAFAF" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_down">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                      <color rgb="0xF4F4F4" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_border">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x353535" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text_shadow">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+              </colors>
+              <data hotlinkid="" accstate="0">
+                <textdata uniqueId="6HUzA3p9Uhm_InvalidPromptSlide_btn0" type="vectortext" alttext="OK" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                  <vectortext left="0" top="0" right="61" bottom="26" pngfb="false">
+                    <pr l="common" i="2" />
+                  </vectortext>
+                </textdata>
+              </data>
+            </button>
+          </objects>
+        </slide>
+        <slide id="PrintPromptSlide" width="420" height="210" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="" starttime="-1" elapsedtimemode="normal" title="&lt;p dir='ltr' align='left'&gt;&lt;font face='Open Sans'&gt;Enter name&lt;/font&gt;&lt;/p&gt;" trackviews="false" showmenuresulticon="false" viewgroupid="" historygroupid="prompt" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="">
+          <actiongroups>
+            <actiongroup id="PrintOkButtonClick">
+              <actions>
+                <printresults showuserscore="true" showpassingscore="true" showpassfail="true" showquizreview="true" displayusername="true" usernamevar="_player.PrintPromptUsername_6YiNfCekEgV" quizid="_player.PrintPromptWindowQuizVar_6YiNfCekEgV" quizidtype="var" />
+                <close_window id="MessageWnd" />
+              </actions>
+            </actiongroup>
+          </actiongroups>
+          <timeline duration="1000">
+            <events>
+              <event time="0">
+                <actions>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="6HUzA3p9Uhm_PrintPromptSlide_btn0" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="PrintPromptSlide_Scroll.6HUzA3p9Uhm_PrintPromptSlide_text" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="PrintPromptSlide_Scroll" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="PrintPromptSlide_Input" />
+                  </show>
+                  <setfocus showrect="true">
+                    <value type="string" value="PrintPromptSlide_Input" />
+                  </setfocus>
+                </actions>
+              </event>
+            </events>
+          </timeline>
+          <objects>
+            <scrollarea id="PrintPromptSlide_Scroll" width="411" height="78" resume="false" usehandcursor="true" shapemaskid="" xpos="13" ypos="16" tabindex="0" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="205.5" rotateypos="39" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" contentwidth="337" contentheight="26">
+              <objects>
+                <vectorshape id="6HUzA3p9Uhm_PrintPromptSlide_text" width="388" height="26" resume="false" usehandcursor="true" shapemaskid="" xpos="0" ypos="0" tabindex="1" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="194" rotateypos="13" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" acctype="text" defaultaction="">
+                  <data hotlinkid="" accstate="0">
+                    <vectordata left="0" top="0" right="331" bottom="26" alttext="Enter your name in the field below:" pngfb="false">
+                      <pr l="common" i="0" />
+                    </vectordata>
+                  </data>
+                  <textlib>
+                    <textdata uniqueId="6HUzA3p9Uhm_PrintPromptSlide_text" id="01" linkid="6HUzA3p9Uhm_PrintPromptSlide_text" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                      <vectortext left="0" top="0" right="331" bottom="26" pngfb="false">
+                        <pr l="common" i="3" />
+                      </vectortext>
+                    </textdata>
+                  </textlib>
+                </vectorshape>
+              </objects>
+            </scrollarea>
+            <button id="6HUzA3p9Uhm_PrintPromptSlide_btn0" width="100" height="30" resume="false" usehandcursor="true" shapemaskid="" xpos="160" ypos="110" tabindex="3" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="50" rotateypos="15" xscale="100" yscale="100" alpha="100" rotation="0" depth="2" scrolling="true" shufflelock="false">
+              <events>
+                <ontransitionincomplete>
+                  <actions>
+                    <setfocus showrect="false">
+                      <value type="string" value="_this" />
+                    </setfocus>
+                  </actions>
+                </ontransitionincomplete>
+                <onrelease>
+                  <actions>
+                    <exe_actiongroup id="_parent.PrintOkButtonClick" />
+                  </actions>
+                </onrelease>
+              </events>
+              <colors>
+                <color name="slide_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x555555" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="html_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x444444" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_bg">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                      <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_hover">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                      <color rgb="0xAFAFAF" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_down">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                      <color rgb="0xF4F4F4" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_border">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x353535" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text_shadow">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+              </colors>
+              <data hotlinkid="" accstate="0">
+                <textdata uniqueId="6HUzA3p9Uhm_PrintPromptSlide_btn0" type="vectortext" alttext="OK" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                  <vectortext left="0" top="0" right="61" bottom="26" pngfb="false">
+                    <pr l="common" i="2" />
+                  </vectortext>
+                </textdata>
+              </data>
+            </button>
+            <textinput id="PrintPromptSlide_Input" width="385" height="27" resume="false" usehandcursor="true" shapemaskid="" xpos="13" ypos="66" tabindex="2" tabenabled="false" xoffset="0" yoffset="0" rotatexpos="192.5" rotateypos="13.5" xscale="100" yscale="100" alpha="100" rotation="0" depth="3" scrolling="true" shufflelock="false" bindto="" align="left" rtl="false" numeric="false" multiline="false" maxchars="0" fontsize="14" textcolor="0x000000" bold="false" font="_sans" marginleft="2" marginright="2" margintop="2" marginbottom="2">
+              <events>
+                <onlosefocus>
+                  <actions>
+                    <adjustvar variable="_player.PrintPromptUsername_6YiNfCekEgV" operator="set">
+                      <value type="property" value="Text" />
+                    </adjustvar>
+                  </actions>
+                </onlosefocus>
+              </events>
+            </textinput>
+          </objects>
+        </slide>
+        <slide id="ScrollPromptSlide" width="420" height="210" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="" starttime="-1" elapsedtimemode="normal" title="&lt;p dir='ltr' align='left'&gt;&lt;font face='Open Sans'&gt;Scroll to Bottom&lt;/font&gt;&lt;/p&gt;" trackviews="false" showmenuresulticon="false" viewgroupid="" historygroupid="prompt" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="">
+          <timeline duration="1000">
+            <events>
+              <event time="0">
+                <actions>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="6HUzA3p9Uhm_ScrollPromptSlide_btn0" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="ScrollPromptSlide_Scroll.6HUzA3p9Uhm_ScrollPromptSlide_text" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="ScrollPromptSlide_Scroll" />
+                  </show>
+                </actions>
+              </event>
+            </events>
+          </timeline>
+          <objects>
+            <scrollarea id="ScrollPromptSlide_Scroll" width="411" height="78" resume="false" usehandcursor="true" shapemaskid="" xpos="13" ypos="16" tabindex="0" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="205.5" rotateypos="39" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" contentwidth="358" contentheight="52">
+              <objects>
+                <vectorshape id="6HUzA3p9Uhm_ScrollPromptSlide_text" width="388" height="52" resume="false" usehandcursor="true" shapemaskid="" xpos="0" ypos="0" tabindex="1" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="194" rotateypos="26" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" acctype="text" defaultaction="">
+                  <data hotlinkid="" accstate="0">
+                    <vectordata left="0" top="0" right="355" bottom="52" alttext="You must scroll to the bottom before submitting." pngfb="false">
+                      <pr l="common" i="0" />
+                    </vectordata>
+                  </data>
+                  <textlib>
+                    <textdata uniqueId="6HUzA3p9Uhm_ScrollPromptSlide_text" id="01" linkid="6HUzA3p9Uhm_ScrollPromptSlide_text" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                      <vectortext left="0" top="0" right="355" bottom="52" pngfb="false">
+                        <pr l="common" i="4" />
+                      </vectortext>
+                    </textdata>
+                  </textlib>
+                </vectorshape>
+              </objects>
+            </scrollarea>
+            <button id="6HUzA3p9Uhm_ScrollPromptSlide_btn0" width="100" height="30" resume="false" usehandcursor="true" shapemaskid="" xpos="160" ypos="110" tabindex="2" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="50" rotateypos="15" xscale="100" yscale="100" alpha="100" rotation="0" depth="2" scrolling="true" shufflelock="false">
+              <events>
+                <ontransitionincomplete>
+                  <actions>
+                    <setfocus showrect="false">
+                      <value type="string" value="_this" />
+                    </setfocus>
+                  </actions>
+                </ontransitionincomplete>
+                <onrelease>
+                  <actions>
+                    <close_window id="MessageWnd" />
+                  </actions>
+                </onrelease>
+              </events>
+              <colors>
+                <color name="slide_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x555555" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="html_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x444444" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_bg">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                      <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_hover">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                      <color rgb="0xAFAFAF" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_down">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                      <color rgb="0xF4F4F4" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_border">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x353535" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text_shadow">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+              </colors>
+              <data hotlinkid="" accstate="0">
+                <textdata uniqueId="6HUzA3p9Uhm_ScrollPromptSlide_btn0" type="vectortext" alttext="OK" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                  <vectortext left="0" top="0" right="61" bottom="26" pngfb="false">
+                    <pr l="common" i="2" />
+                  </vectortext>
+                </textdata>
+              </data>
+            </button>
+          </objects>
+        </slide>
+      </slides>
+    </scene>
+    <scene id="PromptScene" lmsid="" isMessageScene="true" startingslide="_player.PromptScene.ResumePromptSlide">
+      <slides>
+        <slide id="ResumePromptSlide" width="420" height="210" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="" starttime="-1" elapsedtimemode="normal" title="&lt;p dir='ltr' align='left'&gt;&lt;font face='Open Sans'&gt;Resume&lt;/font&gt;&lt;/p&gt;" trackviews="false" showmenuresulticon="false" viewgroupid="" historygroupid="prompt" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="">
+          <timeline duration="1000">
+            <events>
+              <event time="0">
+                <actions>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="6HUzA3p9Uhm_ResumePromptSlide_btn0" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="6HUzA3p9Uhm_ResumePromptSlide_btn1" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="ResumePromptSlide_Scroll.6HUzA3p9Uhm_ResumePromptSlide_text" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="ResumePromptSlide_Scroll" />
+                  </show>
+                </actions>
+              </event>
+            </events>
+          </timeline>
+          <objects>
+            <scrollarea id="ResumePromptSlide_Scroll" width="411" height="78" resume="false" usehandcursor="true" shapemaskid="" xpos="13" ypos="16" tabindex="0" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="205.5" rotateypos="39" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" contentwidth="387" contentheight="52">
+              <objects>
+                <vectorshape id="6HUzA3p9Uhm_ResumePromptSlide_text" width="388" height="52" resume="false" usehandcursor="true" shapemaskid="" xpos="0" ypos="0" tabindex="1" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="194" rotateypos="26" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" acctype="text" defaultaction="">
+                  <data hotlinkid="" accstate="0">
+                    <vectordata left="0" top="0" right="387" bottom="52" alttext="Would you like to resume where you left off?" pngfb="false">
+                      <pr l="common" i="0" />
+                    </vectordata>
+                  </data>
+                  <textlib>
+                    <textdata uniqueId="6HUzA3p9Uhm_ResumePromptSlide_text" id="01" linkid="6HUzA3p9Uhm_ResumePromptSlide_text" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                      <vectortext left="0" top="0" right="387" bottom="52" pngfb="false">
+                        <pr l="common" i="5" />
+                      </vectortext>
+                    </textdata>
+                  </textlib>
+                </vectorshape>
+              </objects>
+            </scrollarea>
+            <button id="6HUzA3p9Uhm_ResumePromptSlide_btn0" width="100" height="30" resume="false" usehandcursor="true" shapemaskid="" xpos="107" ypos="110" tabindex="2" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="50" rotateypos="15" xscale="100" yscale="100" alpha="100" rotation="0" depth="2" scrolling="true" shufflelock="false">
+              <events>
+                <ontransitionincomplete>
+                  <actions>
+                    <setfocus showrect="false">
+                      <value type="string" value="_this" />
+                    </setfocus>
+                  </actions>
+                </ontransitionincomplete>
+                <onrelease>
+                  <actions>
+                    <resume_player resume="true" />
+                  </actions>
+                </onrelease>
+              </events>
+              <colors>
+                <color name="slide_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x555555" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="html_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x444444" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_bg">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                      <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_hover">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                      <color rgb="0xAFAFAF" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_down">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                      <color rgb="0xF4F4F4" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_border">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x353535" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text_shadow">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+              </colors>
+              <data hotlinkid="" accstate="0">
+                <textdata uniqueId="6HUzA3p9Uhm_ResumePromptSlide_btn0" type="vectortext" alttext="Yes" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                  <vectortext left="0" top="0" right="63" bottom="26" pngfb="false">
+                    <pr l="common" i="6" />
+                  </vectortext>
+                </textdata>
+              </data>
+            </button>
+            <button id="6HUzA3p9Uhm_ResumePromptSlide_btn1" width="100" height="30" resume="false" usehandcursor="true" shapemaskid="" xpos="212" ypos="110" tabindex="3" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="50" rotateypos="15" xscale="100" yscale="100" alpha="100" rotation="0" depth="3" scrolling="true" shufflelock="false">
+              <events>
+                <onrelease>
+                  <actions>
+                    <resume_player resume="false" />
+                  </actions>
+                </onrelease>
+              </events>
+              <colors>
+                <color name="slide_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x555555" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="html_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x444444" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_bg">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                      <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_hover">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                      <color rgb="0xAFAFAF" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_down">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                      <color rgb="0xF4F4F4" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_border">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x353535" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text_shadow">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+              </colors>
+              <data hotlinkid="" accstate="0">
+                <textdata uniqueId="6HUzA3p9Uhm_ResumePromptSlide_btn1" type="vectortext" alttext="No" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                  <vectortext left="0" top="0" right="61" bottom="26" pngfb="false">
+                    <pr l="common" i="7" />
+                  </vectortext>
+                </textdata>
+              </data>
+            </button>
+          </objects>
+        </slide>
+        <slide id="ExternalInterfaceErrorSlide" width="415" height="151" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="" starttime="-1" elapsedtimemode="normal" title="&lt;p dir='ltr' align='left'&gt;&lt;font face='Open Sans'&gt;Warning&lt;/font&gt;&lt;/p&gt;" trackviews="false" showmenuresulticon="false" viewgroupid="" historygroupid="prompt" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="">
+          <timeline duration="1000">
+            <events>
+              <event time="0">
+                <actions>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="Text" />
+                  </show>
+                  <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+                    <objref type="string" value="buttonOK" />
+                  </show>
+                </actions>
+              </event>
+            </events>
+          </timeline>
+          <objects>
+            <vectorshape id="Text" width="383" height="105" resume="false" usehandcursor="true" shapemaskid="" xpos="16" ypos="0" tabindex="0" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="191.5" rotateypos="52.5" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" acctype="text" defaultaction="">
+              <data hotlinkid="" accstate="0">
+                <vectordata left="0" top="0" right="383" bottom="105" alttext="Warning Message" pngfb="false">
+                  <pr l="common" i="8" />
+                </vectordata>
+              </data>
+              <textlib>
+                <textdata id="01" linkid="01" type="vartext" xpos="0" ypos="0" width="383" height="105" device="true" valign="center" shadowindex="-1">
+                  <vartext>&lt;html&gt;&lt;p dir='ltr' align='left'&gt;&lt;font face='Open Sans' size='18pt'color='#555555'&gt;The &amp;_player.$LastErrorFeature; feature on this slide has been disabled while viewing locally because your browser does not support it.&lt;/font&gt;&lt;/p&gt;&lt;/html&gt;</vartext>
+                </textdata>
+              </textlib>
+            </vectorshape>
+            <button id="buttonOK" width="100" height="30" resume="false" usehandcursor="true" shapemaskid="" xpos="299" ypos="105" tabindex="1" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="50" rotateypos="15" xscale="100" yscale="100" alpha="100" rotation="0" depth="2" scrolling="true" shufflelock="false">
+              <events>
+                <onrelease>
+                  <actions>
+                    <close_window id="MessageWnd" />
+                  </actions>
+                </onrelease>
+              </events>
+              <colors>
+                <color name="slide_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x555555" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="html_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x444444" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_bg">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                      <color rgb="0xC7C7C7" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_hover">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                      <color rgb="0xAFAFAF" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_down">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                      <color rgb="0xF4F4F4" alpha="100" stop="255" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_border">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xB1B1B1" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0x353535" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+                <color name="btn_text_shadow">
+                  <fill type="linear" rotation="90">
+                    <colors>
+                      <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                    </colors>
+                  </fill>
+                </color>
+              </colors>
+              <data hotlinkid="" accstate="0">
+                <textdata uniqueId="buttonOK" type="vectortext" alttext="OK" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+                  <vectortext left="0" top="0" right="61" bottom="26" pngfb="false">
+                    <pr l="common" i="2" />
+                  </vectortext>
+                </textdata>
+              </data>
+            </button>
+          </objects>
+        </slide>
+      </slides>
+    </scene>
+    <scene id="5hKLbrBpWRd" lmsid="Scene1" isMessageScene="false" startingslide="_player.5hKLbrBpWRd.60DK37yKJ2J">
+      <slides>
+        <slide id="60DK37yKJ2J" width="720" height="540" resume="true" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide1" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/60DK37yKJ2J.swf" iosurl="mobile/slides/60DK37yKJ2J.gz" html5url="mobile/slides/60DK37yKJ2J.json" title="Space Pilot" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="6G6uqGJ0Udu" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide2" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/6G6uqGJ0Udu.swf" iosurl="mobile/slides/6G6uqGJ0Udu.gz" html5url="mobile/slides/6G6uqGJ0Udu.json" title="Hello World" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="5hzdhlUAGNV" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide3" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/5hzdhlUAGNV.swf" iosurl="mobile/slides/5hzdhlUAGNV.gz" html5url="mobile/slides/5hzdhlUAGNV.json" title="Watch Out" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="5nbaiv00tL2" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide4" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/5nbaiv00tL2.swf" iosurl="mobile/slides/5nbaiv00tL2.gz" html5url="mobile/slides/5nbaiv00tL2.json" title="Double Trouble" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="61aKmbaNyg5" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide5" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/61aKmbaNyg5.swf" iosurl="mobile/slides/61aKmbaNyg5.gz" html5url="mobile/slides/61aKmbaNyg5.json" title="Ground Control" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="6AfrcQVYLVA" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide6" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/6AfrcQVYLVA.swf" iosurl="mobile/slides/6AfrcQVYLVA.gz" html5url="mobile/slides/6AfrcQVYLVA.json" title="Scenic Route" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="60v2edlHkFF" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide7" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/60v2edlHkFF.swf" iosurl="mobile/slides/60v2edlHkFF.gz" html5url="mobile/slides/60v2edlHkFF.json" title="A little bit softer now" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="5ntSJEj2XS0" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide8" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/5ntSJEj2XS0.swf" iosurl="mobile/slides/5ntSJEj2XS0.gz" html5url="mobile/slides/5ntSJEj2XS0.json" title="Adverse Conditions" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="5nMFLt3ESZG" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide9" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/5nMFLt3ESZG.swf" iosurl="mobile/slides/5nMFLt3ESZG.gz" html5url="mobile/slides/5nMFLt3ESZG.json" title="Caught in Traffic" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="5fH7L5NkEru" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide10" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/5fH7L5NkEru.swf" iosurl="mobile/slides/5fH7L5NkEru.gz" html5url="mobile/slides/5fH7L5NkEru.json" title="Bigger and Badder" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="6VwjYizXPvG" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide11" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/6VwjYizXPvG.swf" iosurl="mobile/slides/6VwjYizXPvG.gz" html5url="mobile/slides/6VwjYizXPvG.json" title="Sea Legs" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="6Tg4qDUyqeo" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide12" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/6Tg4qDUyqeo.swf" iosurl="mobile/slides/6Tg4qDUyqeo.gz" html5url="mobile/slides/6Tg4qDUyqeo.json" title="No Time To Explain" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="5vcpVGz2EtA" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide13" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/5vcpVGz2EtA.swf" iosurl="mobile/slides/5vcpVGz2EtA.gz" html5url="mobile/slides/5vcpVGz2EtA.json" title="Oh Boy" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="6mUtV3cyLqn" width="720" height="540" resume="false" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide14" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/6mUtV3cyLqn.swf" iosurl="mobile/slides/6mUtV3cyLqn.gz" html5url="mobile/slides/6mUtV3cyLqn.json" title="We're All Counting on You" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+        <slide id="5pPKnCM8IJO" width="720" height="540" resume="true" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide15" starttime="-1" elapsedtimemode="normal" dataurl="story_content/slides/5pPKnCM8IJO.swf" iosurl="mobile/slides/5pPKnCM8IJO.gz" html5url="mobile/slides/5pPKnCM8IJO.json" title="Victory!" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="" />
+      </slides>
+    </scene>
+  </scenes>
+  <slidebank />
+  <pathlibs>
+    <pathlib id="Lib">
+      <path i="0" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v007G00zB00401$v00$v00$v000PE" text="" />
+      <path i="1" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$v51$$$$A1110N0gw00xw00000ew007gw008ew0036w009dw00aew003ew00baw00c6w0096w00dcw0046w009ew00eew00few00gew00h6w00i6w009jw00jgw00kow00lew00bgw00m6w00d9w00ndw00a6w009gw008ew00bcw0046w009cw00ofw0066w00pfw006gw00m6w00dcw00qew003gw00r6w0099w00ngw008ew0036w0098w00sew00baw00c6w009i10$v51$$$$A1110M0ww006x00000aw00cew003ew00bcw00ogw008ew003cw0046w009fw0068w00s6w009cw004gw00tew00bcw00oew0036w00i6w009ew002fw006gw00k6w009ew00baw00cew0036w009ew00b6w009cw004gw00tew00bcw00oew0036w009cw0049w00new00b9w00n6w00dfw006gw00m6w009gw00t6w00d6w00pfw0069w00n6w009i10$v51$$$$A1110N0kw00Hx00000aw00cew003cw004gw00tfw006gw00mcw0046w00dgw00u6w00pew0036w0098w00sfw006aw00c6w009ew00vgw00k6w00dgw00r6w00dgw00mew00v6w009cw004gw00tew00bcw00oew0036w009cw004gw0086w00dgw00tcw0046w009cw004gw00kcw00ocw00oew003cw004cw0048w00sgw00k6w00p6w00pdw00a6w009i10$v51$$$$A1110N0lw00gy000009w00nfw0066w009gw00tfw006aw00c9w00n6w00i6w0097w00w9w00n4w00xcw0046w009gw00rew00bgw00mew00vew003aw00cfw006gw00kcw0046w009gw00ugw00k9w00n6w009dw00yew003aw00cdw00a6w0096w00dow00lgw00tfw006aw00c9w00new00bgw00m9w00n6w009kw00zfw006aw00cdw00A6w00i6w009i10$v51$$$$A1110L0sw00qz00000gw00Bdw00yfw0066w00dgw00r6w009fw006gw00ucw0049w00new00bcw00o6w00pew003cw0046w00i6w009jw00Cgw00k6w00dgw00rew0036w009dw00afw006gw00kaw00c6w009cw004gw0086w00dgw00t6w0099w00nfw0066w0099w00ngw008ew0036w009cw0049w00new00b9w00n6w00dfw006gw00m" text="" />
+      <path i="2" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v007G00px00401$v00$v00$v000PE" text="" />
+      <path i="3" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vh1$$$$A1110b0Oz00Uw00000hw00Djw00thw00bew00ohw0037w009iw00E7w00d7w00piw006aw00n" text="" />
+      <path i="4" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v005x006x00501$v00$v00$vew$vswA1PE" text="" />
+      <path i="5" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00$x00$v00$x00Dw00$v00Dw003401$v00$v00$v001PE" text="" />
+      <path i="6" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00$x00$v00$x00Dw00$v00Dw003402$v00$v00$v001PE" text="" />
+      <path i="7" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00$x00$v00$x00Dw00$v00Dw003403$v00$v00$v001PE" text="" />
+      <path i="8" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00$x00$v00$x00Dw00$v00Dw003404$v00$v00$v001PE" text="" />
+      <path i="9" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00$x00$v00$x00Dw00$v00Dw003405$v00$v00$v001PE" text="" />
+      <path i="10" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0mqFBA111050AwbPqwbP000cw00vaw00aaw00i5w00dbw00ei00$vM0$$$$A111050Aw00qw00000cw00vaw00aaw00i5w00dbw00e" text="" />
+      <path i="11" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Zx00vw00401$v00$v00$v000PE" text="" />
+      <path i="12" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110e09w00lw000008w00F3w00i3w009bw00j8w0033w00p3w00p9w0063w009ew00G9w0066w00c3w00p9w00r" text="" />
+      <path i="13" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Bw00Bw00501$v00$v00$vvh$vnhA1PE" text="" />
+      <path i="14" p="6nwVvVvGwNw$vSw$v$vLw$vLwSwZc$v00$v00Bw00Iw00501$v00$v00$vxb$vlbA1PE" text="" />
+      <path i="15" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZB1JvVvHxzw$v3VM3IA100vhSPA102VM3IA1$3e40$v00$v007x00$v007x00nw00$v00nw003401$v00$v00$v001t3w00px000000t0505010100w00PE" text="" />
+      <path i="16" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZB1JvVvHxzw$v3VM3IA100vhSPA102VM3IA1$3e40$v00$v007x00$v007x00nw00$v00nw003402$v00$v00$v001t3w00px000000t0505010100w00PE" text="" />
+      <path i="17" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZB1JvVvHxzw$v3VM3IA100vhSPA102VM3IA1$3e40$v00$v007x00$v007x00nw00$v00nw003403$v00$v00$v001t3w00px000000t0505010100w00PE" text="" />
+      <path i="18" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZB1JvVvHxzw$v3VM3IA100vhSPA102VM3IA1$3e40$v00$v007x00$v007x00nw00$v00nw003404$v00$v00$v001t3w00px000000t0505010100w00PE" text="" />
+      <path i="19" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZB1JvVvHxzw$v3VM3IA100vhSPA102VM3IA1$3e40$v00$v007x00$v007x00nw00$v00nw003405$v00$v00$v001t3w00px000000t0505010100w00PE" text="" />
+      <path i="20" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vz0mqFBA111060awbPgwbP0007w00w7w00m8w0028w00e6w0078w00bi00$vz0$$$$A111060aw00gw000007w00w7w00m8w0028w00e6w0078w00b" text="" />
+      <path i="21" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZApJXCA1N10$AosA1a1e40$v00$v007C00$v007C00$y00$v00$y003401$v00$v00$v001PE" text="" />
+      <path i="22" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZApJXCA1N10$AosA1a1e40$v00$v007C00$v007C00$y00$v00$y003402$v00$v00$v001PE" text="" />
+      <path i="23" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZApJXCA1N10$AosA1a1e40$v00$v007C00$v007C00$y00$v00$y003403$v00$v00$v001PE" text="" />
+      <path i="24" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZApJXCA1N10$AosA1a1e40$v00$v007C00$v007C00$y00$v00$y003404$v00$v00$v001PE" text="" />
+      <path i="25" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZApJXCA1N10$AosA1a1e40$v00$v007C00$v007C00$y00$v00$y003405$v00$v00$v001PE" text="" />
+      <path i="26" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0mqFBA111080tybPCxbP0009w00xbw0029w0079w007aw00a8w0058w0054w00yi00$vM0$$$$A111080ty00Cx000009w00xbw0029w0079w007aw00a8w0058w0054w00y" text="" />
+      <path i="27" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Qx00vw00401$v00$v00$v000PE" text="" />
+      <path i="28" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110c09w00lw000008w00e3w00i3w009ew00G8w00b5w00n7w00o9w0083w009bw0009w00k5w00n" text="" />
+      <path i="29" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00vw00vw00501$v00$v00$v$f$v$fA1PE" text="" />
+      <path i="30" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZAd15MA1N10Sw3zA1a1e40$v00$v00$B00$v00$B00$y00$v00$y003401$v00$v00$v001PE" text="" />
+      <path i="31" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZAd15MA1N10Sw3zA1a1e40$v00$v00$B00$v00$B00$y00$v00$y003402$v00$v00$v001PE" text="" />
+      <path i="32" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZAd15MA1N10Sw3zA1a1e40$v00$v00$B00$v00$B00$y00$v00$y003403$v00$v00$v001PE" text="" />
+      <path i="33" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZAd15MA1N10Sw3zA1a1e40$v00$v00$B00$v00$B00$y00$v00$y003404$v00$v00$v001PE" text="" />
+      <path i="34" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZAd15MA1N10Sw3zA1a1e40$v00$v00$B00$v00$B00$y00$v00$y003405$v00$v00$v001PE" text="" />
+      <path i="35" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0mqFBA111090mybPCxbP000dw00z5w00d8w005aw00m8w0057w006aw00a8w00h4w00yi00$vM0$$$$A111090my00Cx00000dw00z5w00d8w005aw00m8w0057w006aw00a8w00h4w00y" text="" />
+      <path i="36" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00qy00vw00401$v00$v00$v000PE" text="" />
+      <path i="37" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110h09w00lw000008w00f3w00i3w009bw00H9w0069w00k9w00u3w00p8w0033w0098w0076w00c9w0069w00k9w00u3w00p8w003" text="" />
+      <path i="38" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Dw00Dw00501$v00$v00$v$j$v$jA1PE" text="" />
+      <path i="39" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00sy00vw00401$v00$v00$v000PE" text="" />
+      <path i="40" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110h09w00lw000008w00I3w00i3w009bw00C6w00c9w0069w00k9w00m9w00r3w0099w00J9w0069w00m5w00n6w00c9w0063w00p" text="" />
+      <path i="41" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v005y00vw00401$v00$v00$v000PE" text="" />
+      <path i="42" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110f09w00lw000008w00K3w00i3w0098w00D7w00o8w0039w00m3w00d7w00o3w0099w00L9w0069w00k5w00n8w003" text="" />
+      <path i="43" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Hx00Hx00501$v00$v00$v$R$v$RA1PE" text="" />
+      <path i="44" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v007z00vw00401$v00$v00$v000PE" text="" />
+      <path i="45" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110q09w00lw000008w00g3w00i3w0099w00B3w0097w00M3w00d5w00n5w00n3w00p8w0033w0099w00N3w00d5w00n3w0098w00D9w0064w00s5w00n8w0036w00c3w009bw0059w006bw00z" text="" />
+      <path i="46" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00rw00rw00501$v00$v00$v$d$v$dA1PE" text="" />
+      <path i="47" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Ty00vw00401$v00$v00$v000PE" text="" />
+      <path i="48" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110l09w00lw000008w00O3w00i3w0099w00B9w00r7w00y8w0036w00c7w0048w0033w0099w00J9w0069w00m9w00r3w00d5w00n3w00d9w0069w00m7w004" text="" />
+      <path i="49" p="6swWvWvHwPwMwUw$vUw$v$vMw$vZc$v00$v00Cw00Kw00501$v00$v00$vQb$vRbA1PE" text="" />
+      <path i="50" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZcCw00Mw00ov00gv00502$v001w00$vQb$vRbA1PE" text="" />
+      <path i="51" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00wy00vw00401$v00$v00$v000PE" text="" />
+      <path i="52" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110i09w00lw000008w00P3w00i3w0099w00J8w00b9w00k8w00v9w0085w00n3w0093w00d9w00m3w0098w0076w00c8w00bew00Q7w00o" text="" />
+      <path i="53" p="6zwWvWvTw1xYw6x$v6x$v$vYw$vZc$v00$v00Ow00Yw00501$v00$v00$vtf$vnfA1PE" text="" />
+      <path i="54" p="6wwWvWvOwXwTw0x$v0x$v$vTw$vZc$v00$v00Jw00Sw00501$v00$v00$vYd$vSdA1PE" text="" />
+      <path i="55" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00My00vw00401$v00$v00$v000PE" text="" />
+      <path i="56" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110k09w00lw000008w00R3w00i3w0099w00N3w00d8w00v8w00v8w0036w00c3w0098w00b9w00m9w00r3w0099w00N8w00b9w00r9w00r8w0036w00c" text="" />
+      <path i="57" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00iz00Zz00501$v00$v000w000w00A1PE" text="" />
+      <path i="58" p="6uxCvCvoyoylv_wNxlvrzNx_wrzZc$v00$v00$x00$x00501$v00$v000w000w00A1PE" text="" />
+      <path i="59" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Kx00vw00401$v00$v00$v000PE" text="" />
+      <path i="60" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110c09w00lw000008w00F8w00h3w00i3w0098w00D8w0038w00b3w0097w00M8w0038w00v7w004" text="" />
+      <path i="61" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v007x007x00501$v00$v00$v$v$v$vA1PE" text="" />
+      <path i="62" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00ix00jx00501$v00$v00$vdC$vpCA1PE" text="" />
+      <path i="63" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00ny00Rw00401$v00$v00$v000PE" text="" />
+      <path i="64" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110f0bw00lw000009w00L8w003ew00l8w003ew00l9w00u8w0036w00c3w00S3w009bw00H9w0067w00o7w00A3w009i10$vE0$$$$A1110e0Ew00Hw000008w00b5w00n3w0095w00n9w0088w0033w0097w0045w00n8w00b5w00n3w00d9w0069w00m" text="" />
+      <path i="65" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZA$$$$A1N10aS5eA1a1e70$w00jw00Hw00$v00Hw009w00$v009w00$v00tw00Hw00tw00Hw00Dw003E" text="" />
+      <path i="66" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Wy00vw00401$v00$v00$v000PE" text="" />
+      <path i="67" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110m09w00lw000008w00F8w00F3w00i3w009bw0059w0063w0098w0073w00dew00l8w0033w0095w00n9w0063w0098w00T7w00U9w00t3w00p8w00b3w00d9w00m" text="" />
+      <path i="68" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00zx00vw00401$v00$v00$v000PE" text="" />
+      <path i="69" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110a09w00lw000008w00F8w00e3w00i3w009bw0009w0083w0099w00N9w0067w00a" text="" />
+      <path i="70" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v00Oz00vw00401$v00$v00$v000PE" text="" />
+      <path i="71" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0$$$$A1110t09w00lw000008w00F8w00f3w00i3w009ew00G8w0032w00x6w00c8w0033w0099w00B3w00p3w00p3w0099w00J9w0069w00k9w00m5w00n3w00d9w00m8w00v3w009bw0009w00m3w0098w0029w0069w00k" text="" />
+      <path i="72" p="6ywVvVv0xcx4x$v4xgx$vgx$v$vZc$v00$v00Ww006x00501$v00$v00$vVh$vUhA1PE" text="" />
+      <path i="73" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZc$v00$v007x007x00501$v00$v00$v$z$v$zA1PE" text="" />
+      <path i="74" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vh1$$$$A111080cA00Uw00000iw00V7w00dew00oaw00niw006cw00cfw00a8w00W" text="" />
+      <path i="75" p="6SwDvNvpxsxHv9xCwEv3yww9x1yZc$v00$v001x00ex00501$v00$v00$v0k$vVjA1PE" text="" />
+      <path i="76" p="6QwCvKvqxvxfxKv0yixxw0yMvswZc$v00$v001x00ex00501$v00$v00$v0k$vVjA1PE" text="" />
+      <path i="77" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00Ly00$v00Ly00Tw00$v00Tw003401$v00$v00$v001PE" text="" />
+      <path i="78" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00Ly00$v00Ly00Tw00$v00Tw003402$v00$v00$v001PE" text="" />
+      <path i="79" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00Ly00$v00Ly00Tw00$v00Tw003403$v00$v00$v001PE" text="" />
+      <path i="80" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00Ly00$v00Ly00Tw00$v00Tw003404$v00$v00$v001PE" text="" />
+      <path i="81" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vZADz86A1N10GaC3A1a1e40$v00$v00Ly00$v00Ly00Tw00$v00Tw003405$v00$v00$v001PE" text="" />
+      <path i="82" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0mqFBA111070QwbPywbP000cw00Aaw00abw0085w009aw00maw00l4w00yi00$vM0$$$$A111070Qw00yw00000cw00Aaw00abw0085w009aw00maw00l4w00y" text="" />
+    </pathlib>
+    <pathlib id="common">
+      <path i="0" p="6$v$v$v$v$v$v$v$v$v$v$v$v$v401$v00$v00$v000" text="" />
+      <path i="1" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0llllA1110C0$v00jw00000bw000bw001bw0024w003iw004bw0028w0057w0064w0039w007bw001iw004bw0085w009aw00a7w006aw00a4w0037w006bw00baw00a4w003bw00cbw002aw00a8w0057w0065w00dbw001bw00e4w003bw00faw00a6w00gbw0018w00haw00a4w003i00$vM0llllA1110b0$v00Jw000008w005bw002bw00fiw0045w00d7w0067w0065w00dbw00eaw00i4w00j" text="" />
+      <path i="2" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0RkjdA111020Cw00kw00000bw0009w001" text="" />
+      <path i="3" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0llllA1110y0$v00jw00000aw00kbw00e7w006aw00a8w00h4w003aw00lbw001bw0028w00h4w003bw00eaw00miw004aw00a4w0035w00dbw00e4w0037w006bw00baw00a4w003cw00naw00a5w009bw00o4w003bw00faw00a5w009bw001fw00p4w00q" text="" />
+      <path i="4" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0llllA1110B0$v00jw00000bw000bw001bw0024w003iw004bw0028w0057w0064w0038w0059w0078w00hbw0015w0095w0094w0037w006bw0014w0037w006bw00baw00a4w003bw00fbw0017w0067w006bw001iw0044w003bw00faw00a6w00gbw0018w00haw00a4w003i00$vM0llllA1110b0$v00Jw000008w005bw002bw00fiw0045w00d7w0067w0065w00dbw00eaw00i4w00j" text="" />
+      <path i="5" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi00$vM0llllA1110E0$v00jw00000hw00rbw001bw0025w009bw00o4w003aw00lbw001bw0024w0035w0095w00dbw00saw00a4w0037w006bw0014w0038w00haw00a8w005bw002iw004aw00a4w003fw00pbw00baw00a8w00haw00a4w003aw00lbw001bw0024w0035w009aw00a6w00g7w0064w003i00$vM0llllA111030$v00Jw00000bw001ew00t8w00u" text="" />
+      <path i="6" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0RkjdA111030Aw00kw000008w0028w0037w004" text="" />
+      <path i="7" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vi10$vE0RkjdA111020Cw00kw00000bw0059w006" text="" />
+      <path i="8" p="6$v$v$v$v$v$v$v$v$v$v$v$v$vA$$$$00c$v00$v00_B00Ex00E401$v00$v00$v000" text="" />
+    </pathlib>
+  </pathlibs>
+  <assetlib>
+    <asset id="0" flashUrl="story_content/5YzHb8rOqw7_80_DX168_DY168.swf" html5Url="mobile/5YzHb8rOqw7_80_DX168_DY168_CX167_CY168.png" mobileUrl="mobile/5YzHb8rOqw7_80_DX168_DY168_CX167_CY168.swf" imageType="normal" width="139" height="140" mobiledx="0" mobiledy="0" maskref="0" />
+    <asset id="1" flashUrl="story_content/5zWEHREaska_80_DX508_DY508.swf" html5Url="mobile/5zWEHREaska_80_DX508_DY508_CX422_CY508.png" mobileUrl="mobile/5zWEHREaska_80_DX508_DY508_CX422_CY508.swf" imageType="normal" width="211" height="254" mobiledx="0" mobiledy="0" maskref="1" />
+    <asset id="2" flashUrl="story_content/6mkI2tqrq6Y_80_DX256_DY256.swf" html5Url="mobile/6mkI2tqrq6Y_80_DX256_DY256_CX256_CY256.png" mobileUrl="mobile/6mkI2tqrq6Y_80_DX256_DY256_CX256_CY256.swf" imageType="normal" width="128" height="128" mobiledx="0" mobiledy="0" maskref="2" />
+    <asset id="3" flashUrl="story_content/6Bp3wK4vyjj_80_DX508_DY508.swf" html5Url="mobile/6Bp3wK4vyjj_80_DX508_DY508_CX422_CY508.png" mobileUrl="mobile/6Bp3wK4vyjj_80_DX508_DY508_CX422_CY508.swf" imageType="normal" width="211" height="254" mobiledx="0" mobiledy="0" maskref="3" />
+    <asset id="4" flashUrl="story_content/6Bp3wK4vyjj_XY_80_DX508_DY508.swf" html5Url="mobile/6Bp3wK4vyjj_XY_80_DX508_DY508_CX422_CY508.png" mobileUrl="mobile/6Bp3wK4vyjj_XY_80_DX508_DY508_CX422_CY508.swf" imageType="normal" width="211" height="254" mobiledx="0" mobiledy="0" maskref="4" />
+    <asset id="5" flashUrl="story_content/6EXl3ZVqVY6_80_DX144_DY144.swf" html5Url="mobile/6EXl3ZVqVY6_80_DX144_DY144_CX144_CY144.png" mobileUrl="mobile/6EXl3ZVqVY6_80_DX144_DY144_CX144_CY144.swf" imageType="normal" width="144" height="144" mobiledx="0" mobiledy="0" maskref="5" />
+  </assetlib>
+  <scoring id="scoremgr" description="" lmstext="Space Station" type="view" passpercent="80" viewthreshold="15" passstatus="pass" failstatus="fail">
+    <scorerefs />
+  </scoring>
+</bwContent>

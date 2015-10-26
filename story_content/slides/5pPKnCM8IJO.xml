@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<slide xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5pPKnCM8IJO" width="720" height="540" resume="true" usehandcursor="false" enableseek="true" enablereplay="true" lmsid="Slide15" starttime="-1" elapsedtimemode="normal" title="Victory!" trackviews="true" showmenuresulticon="false" viewgroupid="" historygroupid="" videozoom="" scrolling="false" transition="appear" transduration="0" transdir="1" wipetrans="false" slidelock="false" navindex="-1" globalaudioid="" thumbnailid="" showanimationid="">
+  <events>
+    <onbeforeslidein>
+      <actions>
+        <if_action>
+          <condition>
+            <compare operator="eq" valuea="WindowId" typea="property" valueb="_frame" typeb="string" />
+          </condition>
+          <then_actions>
+            <set_frame_layout name="npnxnsnfns00000000001" />
+          </then_actions>
+          <else_actions>
+            <set_window_control_layout name="npnxnsnfns00000000001" />
+          </else_actions>
+        </if_action>
+      </actions>
+    </onbeforeslidein>
+    <ontransitionin>
+      <actions>
+        <adjustvar variable="_player.LastSlideViewed_6HUzA3p9Uhm" operator="set">
+          <value type="string" value="_player." />
+        </adjustvar>
+        <adjustvar variable="_player.LastSlideViewed_6HUzA3p9Uhm" operator="add">
+          <value type="property" value="AbsoluteId" />
+        </adjustvar>
+      </actions>
+    </ontransitionin>
+  </events>
+  <background type="fill">
+    <fill type="linear" rotation="90">
+      <colors>
+        <color rgb="0x000000" alpha="100" stop="0" />
+      </colors>
+    </fill>
+  </background>
+  <timeline duration="5000">
+    <events>
+      <event time="0">
+        <actions>
+          <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+            <objref type="string" value="5uQXj6EzfpK" />
+          </show>
+          <show transition="custom" duration="0" direction="0" animationid="Entrance" reverse="false">
+            <objref type="string" value="61If7yfd7Uy" />
+          </show>
+          <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+            <objref type="string" value="6JoCcU4yHdV" />
+          </show>
+          <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+            <objref type="string" value="5jv5ZhZr5Hk" />
+          </show>
+          <show transition="appear" duration="0" direction="0" animationid="" reverse="false">
+            <objref type="string" value="6Ch66YGOUQ8" />
+          </show>
+        </actions>
+      </event>
+    </events>
+  </timeline>
+  <objects>
+    <vectorshape id="5uQXj6EzfpK" width="648" height="90" resume="true" usehandcursor="true" shapemaskid="" xpos="36" ypos="22" tabindex="0" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="324" rotateypos="45" xscale="100" yscale="100" alpha="100" rotation="0" depth="1" scrolling="true" shufflelock="false" acctype="text" defaultaction="">
+      <data hotlinkid="" accstate="0">
+        <vectordata left="0" top="0" right="648" bottom="90" alttext="Victory!" pngfb="false">
+          <pr l="Lib" i="2" />
+        </vectordata>
+        <html5data xpos="-1" ypos="-1" width="649" height="91" strokewidth="0" />
+      </data>
+      <textlib>
+        <textdata uniqueId="5uQXj6EzfpK_367430286" id="01" linkid="txt__default_5uQXj6EzfpK" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+          <vectortext left="0" top="0" right="379" bottom="66" pngfb="false">
+            <pr l="Lib" i="74" />
+          </vectortext>
+        </textdata>
+      </textlib>
+    </vectorshape>
+    <vectorshape id="61If7yfd7Uy" width="66" height="79" resume="true" usehandcursor="true" shapemaskid="" xpos="-110" ypos="578" tabindex="2" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="33" rotateypos="39.5" xscale="100" yscale="100" alpha="100" rotation="59" depth="2" scrolling="true" shufflelock="false" acctype="image" defaultaction="">
+      <actiongroups>
+        <actiongroup id="Entrance">
+          <actions>
+            <exe_animation id="5iyQU56YZiO">
+              <objref type="string" value="_parent.6JoCcU4yHdV" />
+              <reverse type="boolean" value="false" />
+            </exe_animation>
+          </actions>
+        </actiongroup>
+      </actiongroups>
+      <events>
+        <ontransitionin>
+          <actions />
+        </ontransitionin>
+        <onanimationcomplete id="61xnQygq1C3" reverse="false">
+          <actions>
+            <exe_animation id="5iyQU56YZiO">
+              <objref type="string" value="_parent.6JoCcU4yHdV" />
+              <reverse type="boolean" value="false" />
+            </exe_animation>
+          </actions>
+        </onanimationcomplete>
+        <onanimationcomplete id="Entrance" reverse="false">
+          <actions>
+            <exe_actiongroup id="Entrance" />
+          </actions>
+        </onanimationcomplete>
+      </events>
+      <data hotlinkid="" accstate="0">
+        <vectordata left="0" top="0" right="66" bottom="79" alttext="croppedShip.png" pngfb="false">
+          <pr l="Lib" i="75" />
+        </vectordata>
+      </data>
+      <animations>
+        <animation id="Entrance" duration="2000" hidetextatstart="true" animateshapewithtext="false">
+          <tweens>
+            <tween time="0" duration="2000">
+              <position duration="2000" easing="linear" easingdir="easein" relativerotation="false" relativestartpoint="false">
+                <path>
+                  <segment type="line">
+                    <anchora x="-110" y="578" dx="0" dy="0" />
+                    <anchorb x="791.4882" y="55.35091" dx="0" dy="0" />
+                  </segment>
+                </path>
+              </position>
+            </tween>
+          </tweens>
+        </animation>
+        <animation id="61xnQygq1C3" duration="2000" hidetextatstart="true" animateshapewithtext="false">
+          <tweens>
+            <tween time="0" duration="2000">
+              <position duration="2000" easing="linear" easingdir="easein" relativerotation="false" relativestartpoint="false">
+                <path>
+                  <segment type="line">
+                    <anchora x="-110" y="578" dx="0" dy="0" />
+                    <anchorb x="791.4882" y="55.35091" dx="0" dy="0" />
+                  </segment>
+                </path>
+              </position>
+            </tween>
+          </tweens>
+        </animation>
+      </animations>
+      <imagelib>
+        <imagedata assetId="1" id="01" url="story_content/5zWEHREaska_80_DX508_DY508.swf" type="normal" alttext="croppedShip.png" width="211" height="254" mobiledx="0" mobiledy="0" />
+      </imagelib>
+    </vectorshape>
+    <vectorshape id="6JoCcU4yHdV" width="66" height="79" resume="true" usehandcursor="true" shapemaskid="" xpos="818" ypos="600" tabindex="3" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="33" rotateypos="39.5" xscale="100" yscale="100" alpha="100" rotation="296" depth="3" scrolling="true" shufflelock="false" acctype="image" defaultaction="">
+      <events>
+        <onanimationcomplete id="5iyQU56YZiO" reverse="false">
+          <actions>
+            <exe_animation id="5om6PP7IijF">
+              <objref type="string" value="_parent.5jv5ZhZr5Hk" />
+              <reverse type="boolean" value="false" />
+            </exe_animation>
+          </actions>
+        </onanimationcomplete>
+      </events>
+      <data hotlinkid="" accstate="0">
+        <vectordata left="0" top="0" right="66" bottom="79" alttext="croppedShip.png" pngfb="false">
+          <pr l="Lib" i="76" />
+        </vectordata>
+      </data>
+      <animations>
+        <animation id="5iyQU56YZiO" duration="2000" hidetextatstart="true" animateshapewithtext="false">
+          <tweens>
+            <tween time="0" duration="2000">
+              <position duration="2000" easing="linear" easingdir="easein" relativerotation="false" relativestartpoint="false">
+                <path>
+                  <segment type="line">
+                    <anchora x="818" y="600" dx="0" dy="0" />
+                    <anchorb x="-161.3764" y="52.8947" dx="0" dy="0" />
+                  </segment>
+                </path>
+              </position>
+            </tween>
+          </tweens>
+        </animation>
+      </animations>
+      <imagelib>
+        <imagedata assetId="1" id="01" url="story_content/5zWEHREaska_80_DX508_DY508.swf" type="normal" alttext="croppedShip.png" width="211" height="254" mobiledx="0" mobiledy="0" />
+      </imagelib>
+    </vectorshape>
+    <vectorshape id="5jv5ZhZr5Hk" width="211" height="254" resume="true" usehandcursor="true" shapemaskid="" xpos="256" ypos="630" tabindex="4" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="105.5" rotateypos="127" xscale="100" yscale="100" alpha="100" rotation="0" depth="4" scrolling="true" shufflelock="false" acctype="image" defaultaction="">
+      <events>
+        <onanimationcomplete id="5om6PP7IijF" reverse="false">
+          <actions>
+            <exe_animation id="6OfHDNqoX0E">
+              <objref type="string" value="_parent.6Ch66YGOUQ8" />
+              <reverse type="boolean" value="false" />
+            </exe_animation>
+          </actions>
+        </onanimationcomplete>
+      </events>
+      <data hotlinkid="" accstate="0">
+        <vectordata left="0" top="0" right="211" bottom="254" alttext="croppedShip.png" pngfb="false">
+          <pr l="Lib" i="57" />
+        </vectordata>
+      </data>
+      <animations>
+        <animation id="5om6PP7IijF" duration="2000" hidetextatstart="true" animateshapewithtext="false">
+          <tweens>
+            <tween time="0" duration="2000">
+              <position duration="2000" easing="cubic" easingdir="easeinout" relativerotation="false" relativestartpoint="false">
+                <path>
+                  <segment type="line">
+                    <anchora x="256" y="630" dx="0" dy="0" />
+                    <anchorb x="254.5" y="208.8914" dx="0" dy="0" />
+                  </segment>
+                </path>
+              </position>
+            </tween>
+          </tweens>
+        </animation>
+      </animations>
+      <imagelib>
+        <imagedata assetId="1" id="01" url="story_content/5zWEHREaska_80_DX508_DY508.swf" type="normal" alttext="croppedShip.png" width="211" height="254" mobiledx="0" mobiledy="0" />
+      </imagelib>
+    </vectorshape>
+    <vectorshape id="6Ch66YGOUQ8" width="176" height="56" resume="true" usehandcursor="true" shapemaskid="" xpos="840" ypos="446" tabindex="1" tabenabled="true" xoffset="0" yoffset="0" rotatexpos="88" rotateypos="28" xscale="100" yscale="100" alpha="100" rotation="0" depth="5" scrolling="true" shufflelock="false" acctype="button" defaultaction="onrelease">
+      <variables>
+        <variable name="_hover" type="boolean" value="false" resume="true" />
+        <variable name="_down" type="boolean" value="false" resume="true" />
+        <variable name="_visited" type="boolean" value="false" resume="true" />
+        <variable name="_disabled" type="boolean" value="false" resume="true" />
+        <variable name="_savevisited" type="boolean" value="false" resume="true" />
+        <variable name="_state" type="string" value="_default" resume="true" />
+        <variable name="_stateName" type="string" value="" resume="true" />
+      </variables>
+      <actiongroups>
+        <actiongroup id="ActGrpSetVisitedState">
+          <actions>
+            <adjustvar variable="_savevisited" operator="set">
+              <value type="var" value="_visited" />
+            </adjustvar>
+            <adjustvar variable="_visited" operator="set">
+              <value type="boolean" value="true" />
+            </adjustvar>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </actiongroup>
+        <actiongroup id="ActGrpSetHoverState">
+          <actions>
+            <adjustvar variable="_hover" operator="set">
+              <value type="boolean" value="true" />
+            </adjustvar>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </actiongroup>
+        <actiongroup id="ActGrpClearHoverState">
+          <actions>
+            <adjustvar variable="_hover" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </actiongroup>
+        <actiongroup id="ActGrpSetDisabledState">
+          <actions>
+            <adjustvar variable="_disabled" operator="set">
+              <value type="boolean" value="true" />
+            </adjustvar>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </actiongroup>
+        <actiongroup id="ActGrpSetDownState">
+          <actions>
+            <adjustvar variable="_down" operator="set">
+              <value type="boolean" value="true" />
+            </adjustvar>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </actiongroup>
+        <actiongroup id="ActGrpClearStateVars">
+          <actions>
+            <adjustvar variable="_hover" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+            <adjustvar variable="_down" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+            <adjustvar variable="_visited" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+            <adjustvar variable="_disabled" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+            <adjustvar variable="_savevisited" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+          </actions>
+        </actiongroup>
+      </actiongroups>
+      <events>
+        <onrelease>
+          <actions>
+            <exe_actiongroup id="ActGrpSetVisitedState">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+            <adjustvar variable="_down" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+            <reset_player startslideid="_player.5hKLbrBpWRd.60DK37yKJ2J" />
+          </actions>
+        </onrelease>
+        <ontransitionin>
+          <actions>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </ontransitionin>
+        <onrollover>
+          <actions>
+            <exe_actiongroup id="ActGrpSetHoverState">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </onrollover>
+        <onrollout>
+          <actions>
+            <exe_actiongroup id="ActGrpClearHoverState">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </onrollout>
+        <onpress>
+          <actions>
+            <exe_actiongroup id="ActGrpSetDownState">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </onpress>
+        <onreleaseoutside>
+          <actions>
+            <adjustvar variable="_down" operator="set">
+              <value type="boolean" value="false" />
+            </adjustvar>
+            <exe_actiongroup id="_player._setstates">
+              <scoperef type="string" value="_this" />
+            </exe_actiongroup>
+          </actions>
+        </onreleaseoutside>
+      </events>
+      <data hotlinkid="" accstate="0">
+        <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+          <pr l="Lib" i="77" />
+        </vectordata>
+        <html5data xpos="-1" ypos="-1" width="177" height="57" strokewidth="1" />
+      </data>
+      <states>
+        <state name="_default_Disabled">
+          <data hotlinkid="" accstate="1">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="78" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Down">
+          <data hotlinkid="" accstate="8">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="79" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Visited">
+          <data hotlinkid="" accstate="0">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="80" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Visited_Disabled">
+          <data hotlinkid="" accstate="1">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="78" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Down_Visited">
+          <data hotlinkid="" accstate="8">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="79" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Hover">
+          <data hotlinkid="" accstate="0">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="81" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Hover_Disabled">
+          <data hotlinkid="" accstate="1">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="78" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Hover_Down">
+          <data hotlinkid="" accstate="8">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="79" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Hover_Visited">
+          <data hotlinkid="" accstate="0">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="81" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Hover_Visited_Disabled">
+          <data hotlinkid="" accstate="1">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="78" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+        <state name="_default_Hover_Down_Visited">
+          <data hotlinkid="" accstate="8">
+            <vectordata left="-1" top="-1" right="177" bottom="57" alttext="Replay!" pngfb="false">
+              <pr l="Lib" i="79" />
+            </vectordata>
+            <html5data xpos="-1" ypos="-1" width="178" height="58" strokewidth="1" />
+          </data>
+        </state>
+      </states>
+      <animations>
+        <animation id="6OfHDNqoX0E" duration="2000" hidetextatstart="true" animateshapewithtext="false">
+          <tweens>
+            <tween time="0" duration="2000">
+              <position duration="2000" easing="cubic" easingdir="easeinout" relativerotation="false" relativestartpoint="false">
+                <path>
+                  <segment type="line">
+                    <anchora x="840" y="446" dx="0" dy="0" />
+                    <anchorb x="496" y="446" dx="0" dy="0" />
+                  </segment>
+                </path>
+              </position>
+            </tween>
+          </tweens>
+        </animation>
+      </animations>
+      <textlib>
+        <textdata uniqueId="66keSe5mC4e_-1740200703" id="01" linkid="txt__default_6Ch66YGOUQ8" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+          <vectortext left="0" top="0" right="123" bottom="42" pngfb="false">
+            <pr l="Lib" i="82" />
+          </vectortext>
+        </textdata>
+        <textdata uniqueId="6RhyCtyt8YV_668902252" id="02" linkid="txt__default_Disabled_6Ch66YGOUQ8" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+          <vectortext left="0" top="0" right="123" bottom="42" pngfb="false">
+            <pr l="Lib" i="82" />
+          </vectortext>
+        </textdata>
+        <textdata uniqueId="6BYwZXQOIpi_1915238054" id="03" linkid="txt__default_Down_6Ch66YGOUQ8" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+          <vectortext left="0" top="0" right="123" bottom="42" pngfb="false">
+            <pr l="Lib" i="82" />
+          </vectortext>
+        </textdata>
+        <textdata uniqueId="69KGMYWdxYZ_437548362" id="04" linkid="txt__default_Visited_6Ch66YGOUQ8" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+          <vectortext left="0" top="0" right="123" bottom="42" pngfb="false">
+            <pr l="Lib" i="82" />
+          </vectortext>
+        </textdata>
+        <textdata uniqueId="6hLNfSgwBtv_254285276" id="05" linkid="txt__default_Hover_6Ch66YGOUQ8" type="vectortext" xpos="0" ypos="0" width="0" height="0" shadowindex="-1">
+          <vectortext left="0" top="0" right="123" bottom="42" pngfb="false">
+            <pr l="Lib" i="82" />
+          </vectortext>
+        </textdata>
+      </textlib>
+    </vectorshape>
+  </objects>
+  <presenterref id="none" />
+</slide>
